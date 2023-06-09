@@ -1,10 +1,13 @@
 import React from 'react';
 import '../Header/Header.scss'
 import logo from '../../../Imgs/Logo.svg'
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 
 const Header = () => {
+
+    const navigate = useNavigate()
+
     return (
         <header id='header'>
             <div className='container'>
@@ -29,7 +32,7 @@ const Header = () => {
                             </select>
                         </div>
                         <div className='header--search__button'>
-                            <button>Log in</button>
+                            <button onClick={() => navigate('register')}>Log in</button>
                         </div>
                     </div>
                 </div>
