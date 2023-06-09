@@ -8,6 +8,8 @@ import DreamApartamen from "./Components/Main/Explore/Dream/Apartamen";
 import Explore from "./Components/Main/Explore/Explore";
 import Rent from "./Components/Main/Explore/Dream/RentsHero/Rent";
 import Apartamen from "./Components/Main/Explore/Dream/Apartamen";
+import Register from "./Components/Main/Header/Register/Register";
+
 
 function App() {
     return (
@@ -17,7 +19,9 @@ function App() {
                 <Route path={'/'} element={<Main/>}/>
                 <Route path={'/apartamen'} element={<Apartamen/>}/>
                 <Route path={'/explore'} element={<Explore/>}/>
-             </Routes>
+                <Route path={'register'} element={<Register/>}/>
+            </Routes>
+
             <Footer/>
         </>
     );

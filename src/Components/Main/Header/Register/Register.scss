@@ -1,0 +1,111 @@
+#register{
+  background: url("../../../../Imgs/registerBG.png") no-repeat center/cover;
+  min-height: 100vh;
+  .container{
+    .register{
+      padding: 100px 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      &--title{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        color: #FFFFFF;
+        h1{
+          padding: 0 10px;
+          font-weight: 700;
+          font-size: 32px;
+          color: #FFFFFF;
+        }
+      }
+      &--nav{
+        position: relative;
+        &__open{
+          position: absolute;
+          top: 116px;
+          left: 473px;
+        }
+        &__lock{
+          position: absolute;
+          top: 116px;
+          left: 473px;
+        }
+
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 74, 96, 0.61);
+        border-radius: 32px;
+        box-sizing: border-box;
+        margin: 100px 0;
+        padding: 30px 30px;
+        width: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        input{
+          color: #1B76F9;
+          padding: 0 20px;
+          width: 80%;
+          height: 40px;
+          border: 1px solid rgba(0, 74, 96, 0.46);
+          border-radius: 11px;
+          margin: 10px 0;
+          outline: none;
+          ::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(0, 74, 96, 0.65)
+          }
+        }
+        p{
+          width: 90%;
+          padding: 10px 0;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #004A60;
+        }
+        a{
+          padding: 10px 0;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #1B76F9;
+          text-decoration-line: underline;
+        }
+        button{
+          width: 90%;
+          height: 40px;
+          border: 1px solid #0762E5;
+          border-radius: 11px;
+        }
+        &__first{
+          background: #1B76F9;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #FFFFFF;
+          margin: 20px 0;
+        }
+        &__second{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #004A60;
+          &--icon{
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
