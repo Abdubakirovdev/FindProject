@@ -23,13 +23,15 @@
       &--nav{
         position: relative;
         &__open{
+          cursor: pointer;
           position: absolute;
-          top: 116px;
+          top: 114px;
           left: 473px;
         }
         &__lock{
+          cursor: pointer;
           position: absolute;
-          top: 116px;
+          top: 114px;
           left: 473px;
         }
 
@@ -37,7 +39,7 @@
         border: 1px solid rgba(0, 74, 96, 0.61);
         border-radius: 32px;
         box-sizing: border-box;
-        margin: 100px 0;
+        margin: 50px 0;
         padding: 30px 30px;
         width: 570px;
         display: flex;
@@ -47,7 +49,7 @@
         input{
           color: #1B76F9;
           padding: 0 20px;
-          width: 80%;
+          width: 90%;
           height: 40px;
           border: 1px solid rgba(0, 74, 96, 0.46);
           border-radius: 11px;

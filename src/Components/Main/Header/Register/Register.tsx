@@ -22,8 +22,6 @@ const Register = () => {
     const getLock=()=>{
         setLock(!lock)
     }
-
-
     return (
         <div id='register'>
             <div className='container'>
@@ -58,5 +56,4 @@ const Register = () => {
         </div>
     );
 };
-
 export default Register;
