@@ -9,7 +9,7 @@ const Main = () => {
         <div>
             <Hero/>
             <Easy/>
-            <Explore/>
+            {/*<Explore/>*/}
             <SuperAgent/>
         </div>
     );
