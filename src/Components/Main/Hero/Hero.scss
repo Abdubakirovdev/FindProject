@@ -1,0 +1,255 @@
+#hero {
+  padding: 50px 0;
+
+  .hero {
+    &--img1 {
+      width: 1150px;
+    }
+
+    &--img2 {
+      display: none;
+    }
+
+    &--block {
+      position: absolute;
+      bottom: 160px;
+      left: 14rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 74, 96, 0.5);
+      border-radius: 32px;
+      width: 1080px;
+      height: 136px;
+      box-sizing: border-box;
+    }
+
+    &--buttons {
+      display: flex;
+      grid-column-gap: 8px;
+    }
+
+    &--input1 {
+      width: 572px;
+      height: 92px;
+      background: rgba(0, 74, 96, 0.1);
+      border-radius: 16px;
+      outline: none;
+      border: none;
+      padding: 0 10px;
+    }
+
+    &--btn2 {
+      position: absolute;
+      right: 2rem;
+      bottom: 40px;
+      width: 121px;
+      height: 56px;
+      border: none;
+      background: #1B76F9;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+
+    &--btn1 {
+      width: 68px;
+      height: 40px;
+      border: 1px solid rgba(0, 74, 96, 0.5);
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    &--options {
+      width: 163px;
+      height: 40px;
+      border-radius: 8px;
+      outline: none;
+      background: #FFFFFF;
+    }
+
+    &--option2 {
+      width: 112px;
+      height: 40px;
+      outline: none;
+      border-radius: 8px;
+      background: #FFFFFF;
+    }
+
+    &--option3 {
+      width: 95px;
+      height: 40px;
+      outline: none;
+      border-radius: 8px;
+      background: #FFFFFF;
+    }
+
+    option {
+      padding: 10px 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(0, 74, 96, 0.7);
+    }
+
+    h1 {
+      position: absolute;
+      bottom: 25.5rem;
+      left: 31.5rem;
+      font-weight: 600;
+      font-size: 50.52px;
+      line-height: 76px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  #hero {
+    .hero {
+      &--img1 {
+        width: 1060px;
+      }
+
+      h1 {
+        position: absolute;
+        bottom: 31.5rem;
+        left: 24.5rem;
+      }
+
+      &--block {
+        position: absolute;
+        bottom: 270px;
+        left: 6rem;
+        width: 992px;
+      }
+
+      &--input1 {
+        width: 516px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1140px) {
+
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      &--img1 {
+        width: 1060px;
+      }
+
+      h1 {
+        position: absolute;
+        bottom: 35rem;
+        left: 24.5rem;
+      }
+
+      &--block {
+        bottom: 326px;
+        left: 6rem;
+        width: 981px;
+      }
+
+      &--input1 {
+        width: 502px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+      &--img1 {
+        width: 762px;
+      }
+
+      &--block {
+        bottom: 121px;
+        left: 4rem;
+        width: 714px;
+      }
+
+      &--btn2 {
+        position: absolute;
+        bottom: 45px;
+        width: 100px;
+        height: 42px;
+      }
+
+      &--options {
+        width: 153px;
+      }
+
+      &--option2 {
+        width: 103px;
+      }
+
+      &--option3 {
+        width: 85px;
+      }
+      &--input1{
+        width: 270px;
+        height: 81px;
+        position: relative;
+        top: 10px;
+      }
+      h1{
+        position: absolute;
+        bottom: 19.2rem;
+        width: 448px;
+        left: 16.5rem;
+        line-height: 56px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+#hero{
+  .hero{
+    &--img1{
+      display: none;
+    }
+    &--img2{
+      display: block;
+    }
+  }
+}
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
