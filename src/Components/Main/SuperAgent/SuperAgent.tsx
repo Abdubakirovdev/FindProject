@@ -21,6 +21,12 @@ const SuperAgent = () => {
                             <img src={agentImg} alt=""/>
                         </div>
                         <div>
+                            <img src={agentImg} alt=""/>
+                        </div>
+                        <div>
+                            <img src={agentImg} alt=""/>
+                        </div>
+                        <div>
                             <img src={agentImg1} alt=""/>
                         </div>
                         <div>

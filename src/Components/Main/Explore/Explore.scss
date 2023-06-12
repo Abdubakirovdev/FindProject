@@ -47,9 +47,10 @@
     &--card1{
       display: flex;
       grid-column-gap: 18px;
+      overflow-x: auto;
+      padding: 10px 0;
     }
     &--cards{
-
       &__card{
         padding: 10px;
         width: 243px;

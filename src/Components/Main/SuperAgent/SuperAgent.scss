@@ -25,6 +25,8 @@
     &--box{
       display: flex;
       grid-column-gap: 8rem;
+      overflow-x: auto;
+      padding: 10px 0;
     }
     &--block{
       margin-top: 130px;

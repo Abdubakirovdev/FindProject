@@ -3,9 +3,10 @@ import '../Explore/Explore.scss'
 import DreamApartamen from "./Dream/Apartamen";
 import Apartamen from "./Dream/Apartamen";
 import exImg from   "../../../Imgs/Rectangle 9.svg"
-
+// import Slider from "react-slick";
 
 const Explore = () => {
+
     return (
         <section id="ex">
             <div className="container">
@@ -73,8 +74,17 @@ const Explore = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="ex--cards">
+                        <div className="ex--cards__card">
+                            <img src={exImg} alt=""/>
+                            <h2>The Grand Estate</h2>
+                            <div className="ex--cards__card--titles">
+                                <p>Bishkek</p>
+                                <h4>$ 100 000</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
 
             </div>
             <Apartamen/>
