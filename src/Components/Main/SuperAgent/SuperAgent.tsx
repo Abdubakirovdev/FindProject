@@ -6,7 +6,6 @@ import agentImg2 from "../../../Imgs/Agent (1).svg"
 import agentImg3 from "../../../Imgs/Agent (2).svg"
 import agentImg4 from "../../../Imgs/Agent (3).svg"
 import agentImg5 from "../../../Imgs/Agent (4).svg"
-import Slider from "react-slick"
 
 const SuperAgent = () => {
     return (

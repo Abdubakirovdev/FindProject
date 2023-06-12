@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Register.scss'
-import home from '../../../../Imgs/home.svg'
+import home from '../../../../../Imgs/home.svg'
 import {FcGoogle} from "react-icons/fc";
 import {NavLink} from "react-router-dom";
 import {AiFillEye, AiFillEyeInvisible} from "react-icons/ai";

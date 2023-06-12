@@ -6,7 +6,11 @@ import Main from "./Components/Main/Main";
 import Footer from "./Components/Main/Footer/Footer";
 import Explore from "./Components/Main/Explore/Explore";
 import Apartamen from "./Components/Main/Explore/Dream/Apartamen";
-import Register from "./Components/Main/Header/Register/Register";
+import Register from "./Components/Main/Header/HeaderPages/Register/Register";
+import Buy from "./Components/Main/Header/HeaderPages/Buy/Buy";
+import Rent from "./Components/Main/Explore/Dream/RentsHero/Rent";
+import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
+import Reviews from "./Components/Main/Header/HeaderPages/Reviews/Reviews";
 
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
                 <Route path={'/apartamen'} element={<Apartamen/>}/>
                 <Route path={'/explore'} element={<Explore/>}/>
                 <Route path={'register'} element={<Register/>}/>
+                <Route path={'/buy'} element={<Buy/>}/>
+                <Route path={'/rent'} element={<Rent/>}/>
+                <Route path={'/agents'} element={<Agents/>}/>
+                <Route path={'/review'} element={<Reviews/>}/>
             </Routes>
 
             <Footer/>
