@@ -3,7 +3,6 @@ import '../Hero/Hero.scss'
 import imgHero from "../../../Imgs/Image.svg"
 import img1Hero from "../../../Imgs/Image (1).svg"
 import {CiSearch} from "react-icons/ci"
-import Slider from "react-slick"
 
 const Hero = () => {
     const settings = {
