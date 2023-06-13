@@ -42,11 +42,11 @@ const SuperAgent = () => {
                             <img src={agentImg5} alt=""/>
                         </div>
                     </div>
-                    <div className="agent--block">
-                        <h1>List your property with us</h1>
-                        <p>Grow your business with property finder</p>
-                        <button>Get Started</button>
-                    </div>
+                    {/*<div className="agent--block">*/}
+                    {/*    <h1>List your property with us</h1>*/}
+                    {/*    <p>Grow your business with property finder</p>*/}
+                    {/*    <button>Get Started</button>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>
