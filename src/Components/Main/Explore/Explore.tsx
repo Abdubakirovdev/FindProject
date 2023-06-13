@@ -1,9 +1,7 @@
 import React from 'react';
 import '../Explore/Explore.scss'
-import DreamApartamen from "./Dream/Apartamen";
-import Apartamen from "./Dream/Apartamen";
 import exImg from   "../../../Imgs/Rectangle 9.svg"
-// import Slider from "react-slick";
+import {NavLink} from "react-router-dom";
 
 const Explore = () => {
 
@@ -26,7 +24,7 @@ const Explore = () => {
                 <div className="ex--card1">
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                          <NavLink to={'/apartment'}><img src={exImg} alt=""/></NavLink>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -87,7 +85,6 @@ const Explore = () => {
                 </div>
 
             </div>
-            <Apartamen/>
         </section>
     );
 };
