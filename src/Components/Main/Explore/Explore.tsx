@@ -24,7 +24,8 @@ const Explore = () => {
                 <div className="ex--card1">
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                          <NavLink to={'/apartment'}><img src={exImg} alt=""/></NavLink>
+                          <NavLink to={'/apartment'}>
+                              <img className="ex--cards__card--image" src={exImg} alt=""/></NavLink>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -34,7 +35,7 @@ const Explore = () => {
                     </div>
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                            <img className="ex--cards__card--image" src={exImg} alt=""/>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -44,7 +45,7 @@ const Explore = () => {
                     </div>
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                            <img className="ex--cards__card--image" src={exImg} alt=""/>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -54,7 +55,7 @@ const Explore = () => {
                     </div>
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                            <img className="ex--cards__card--image" src={exImg} alt=""/>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -64,7 +65,7 @@ const Explore = () => {
                     </div>
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                            <img className="ex--cards__card--image" src={exImg} alt=""/>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>
@@ -74,7 +75,7 @@ const Explore = () => {
                     </div>
                     <div className="ex--cards">
                         <div className="ex--cards__card">
-                            <img src={exImg} alt=""/>
+                            <img className="ex--cards__card--image" src={exImg} alt=""/>
                             <h2>The Grand Estate</h2>
                             <div className="ex--cards__card--titles">
                                 <p>Bishkek</p>

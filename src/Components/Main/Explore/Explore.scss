@@ -57,6 +57,9 @@
         height: 344px;
         border: 1px solid rgba(0, 74, 96, 0.5);
         border-radius: 16px;
+        &--image{
+         display: block;
+        }
         h2{
           font-weight: 500;
           font-size: 21.33px;
@@ -85,4 +88,147 @@
     }
 
   }
+}
+
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1140px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+#ex{
+  .ex{
+    h1{
+      font-size: 26.43px;
+    }
+    select{
+      width: 161px;
+    }
+    &--btn1{
+      width: 92px;
+    }
+  }
+}
+}
+@media (max-width: 576px) {
+  #ex{
+    .ex{
+      h1{
+        font-size: 26.43px;
+        line-height: 28px;
+        width: 250px;
+      }
+      select{
+        width: 128px;
+      }
+      &--btn1{
+        width: 89px;
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+#ex{
+  .ex{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    h1{
+      width: 407px;
+    }
+    select{
+      width: 182px;
+      margin-right: 119px;
+    }
+  }
+}
+}
+@media (max-width: 400px) {
+  #ex{
+    .ex{
+      h1{
+        width: 348px;
+        font-size: 25.43px;
+        line-height: 6px;
+      }
+      select{
+        width: 177px;
+        margin-right: 79px;
+        height: 35px;
+      }
+      &--btn1{
+        height: 35px;
+      }
+      &--cards{
+        &__card{
+          width: 203px;
+          height: 270px;
+          h2{
+            font-size: 19.33px;
+            line-height: 27px;
+            color: #004A60;
+            padding-bottom: 12px;
+          }
+          &--image{
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 380px) {
+#ex{
+  .ex{
+    h1{
+      width: 318px;
+      font-size: 24.43px;
+    }
+    select{
+      width: 150px;
+    }
+  }
+}
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+#ex{
+  .ex{
+    h1{
+      width: 318px;
+      font-size: 21.43px;
+    }
+    select{
+      width: 144px;
+      margin-right: 40px;
+    }
+    &--cards{
+      &__card{
+        width: 183px;
+        height: 235px;
+        h2{
+          font-size: 17.33px;
+          line-height: 27px;
+          padding-bottom: 5px;
+        }
+        &--image{
+          width: 180px
+        }
+      }
+    }
+  }
+}
 }
