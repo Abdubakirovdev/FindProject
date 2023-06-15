@@ -1,0 +1,303 @@
+#Reviews{
+  .Reviews-hero{
+    background: url("../../../../../Imgs/rewiew.png") no-repeat center/cover;
+    min-height: 60vh;
+    position: relative;
+    h1{
+      padding-top: 15%;
+      font-weight: 600;
+      font-size: 50.52px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &-input{
+      text-align: center;
+      padding-top: 8%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: -5%;
+      input{
+        width: 662px;
+        height: 88px;
+        border-radius: 16px;
+        background: silver;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        padding-left: 1%;
+      }
+      button{
+        width: 121px;
+        height: 56px;
+        background: #1B76F9;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+        margin-left: -23.5%;
+        padding-left: 30px;
+      }
+      &-Search{
+        font-size: 20px;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 4px
+      }
+      &-inputs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        gap: 24px;
+        width: 710px;
+        position: absolute;
+        height: 136px;
+        left: 450px;
+        top: 100px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 74, 96, 0.5);
+        border-radius: 32px;
+      }
+    }
+  }
+  .Reviews-top-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &-gr{
+      display: flex;
+      gap: 200px;
+    }
+    &-left{
+      h1{
+        padding-bottom: 50px;
+      }
+      &-one{
+        background: transparent;
+        border: 2px solid silver;
+        padding: 20px 20px;
+        border-radius: 16px;
+        display: flex;
+        width: 600px;
+        &-right{
+          .text{
+            padding-bottom: 80px;
+          }
+          padding-left: 3%;
+          &-num{
+            display: flex;
+            padding-top: 12%;
+          }
+          &-btn{
+            display: flex;
+            gap: 10px;
+            padding-top: 3%;
+          }
+          &-h1{
+            font-weight: 500;
+            font-size: 21.33px;
+            color: #004A60;
+          }
+        }
+      }
+    }
+    &-right{
+      h1{
+        font-weight: 550;
+      }
+      &-one{
+        background: transparent;
+        border: 2px solid silver;
+        padding: 20px 20px;
+        border-radius: 16px;
+        &-h1{
+          font-weight: 700;
+          font-size: 21.33px;
+          color: #004A60;
+        }
+        &-gl{
+          display: flex;
+          gap: 5px;
+        }
+        &-p{
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #004A60;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1440px){
+  #Reviews .Reviews-hero {
+    min-height: 100vh;
+  }
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 1300px){
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+    left: 360px;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 12%;
+  }
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1000px){
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+    left: 210px;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 16%;
+  }
+  #Reviews .Reviews-top-reviews-gr {
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+  }
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 882px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+    left: 140px;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 19%;
+  }
+}
+@media (max-width: 782px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+    left: 110px;
+    width: 630px;
+    height: 100px;
+  }
+  #Reviews .Reviews-hero-input input {
+    width: 575px;
+    height: 70px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 110px;
+    height: 50px;
+    margin-left: -25.5%;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 26%;
+  }
+}
+@media (max-width: 681px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 80px;
+    left: 80px;
+    width: 600px;
+    height: 100px;
+  }
+  #Reviews .Reviews-top-reviews-left-one {
+    width: 530px;
+  }
+  .btns {
+    width: 110px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 581px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 125px;
+    left: 75px;
+    width: 480px;
+    height: 90px;
+  }
+  #Reviews .Reviews-hero-input input {
+    width: 575px;
+    height: 70px;
+    font-size: 17px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 110px;
+    height: 50px;
+    margin-left: -28.5%;
+  }
+  #Reviews .Reviews-hero-input-Search {
+    font-size: 20px;
+    position: absolute;
+    margin-left: -23px;
+    margin-top: 4px;
+  }
+
+}
+@media (max-width: 481px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 125px;
+    left: 40px;
+    width: 443px;
+    height: 90px;
+  }
+  #Reviews .Reviews-top-reviews-left-one {
+    width: 290px;
+    flex-direction: column;
+  }
+  .Reviews-top-reviews-left-one-left{
+    padding-bottom: 12px;
+  }
+  #Reviews .Reviews-top-reviews-left h1 {
+    padding-bottom: 50px;
+    font-size: 25px;
+  }
+  #Reviews .Reviews-hero-input-inputs {
+    top: 155px;
+    left: 40px;
+    width: 443px;
+    height: 90px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 110px;
+    height: 50px;
+    margin-left: -30.5%;
+  }
+}
+@media (max-width: 320px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 160px;
+    left: 24px;
+    width: 299px;
+    height: 80px;
+  }
+  #Reviews .Reviews-top-reviews-left-one {
+    width: 277px;
+    flex-direction: column;
+  }
+  #Reviews .Reviews-hero h1 {
+    padding-top: 47%;
+    font-size: 30px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 110px;
+    height: 40px;
+    margin-left: -48.5%;
+  }
+  #Reviews .Reviews-hero-input input {
+    width: 575px;
+    height: 58px;
+    font-size: 10px;
+  }
+}
