@@ -89,7 +89,7 @@
           }
           padding-left: 3%;
           &-num{
-             display: flex;
+            display: flex;
             padding-top: 12%;
           }
           &-btn{
@@ -97,11 +97,11 @@
             gap: 10px;
             padding-top: 3%;
           }
-            &-h1{
-              font-weight: 500;
-              font-size: 21.33px;
-              color: #004A60;
-            }
+          &-h1{
+            font-weight: 500;
+            font-size: 21.33px;
+            color: #004A60;
+          }
         }
       }
     }
@@ -154,7 +154,7 @@
   }
 }
 @media (max-width: 1200px){
-  
+
 }
 @media (max-width: 1000px){
   #Reviews .Reviews-hero-input-inputs {
@@ -165,14 +165,14 @@
     padding-top: 16%;
   }
   #Reviews .Reviews-top-reviews-gr {
-     display: flex;
-     gap: 90px;
-     flex-direction: column;
-   }
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+  }
 
 }
 @media (max-width: 992px) {
-  
+
 }
 @media (max-width: 882px) {
   #Reviews .Reviews-hero-input-inputs {
@@ -190,10 +190,10 @@
     width: 630px;
     height: 100px;
   }
-    #Reviews .Reviews-hero-input input {
-      width: 575px;
-      height: 70px;
-    }
+  #Reviews .Reviews-hero-input input {
+    width: 575px;
+    height: 70px;
+  }
   #Reviews .Reviews-hero-input button {
     width: 110px;
     height: 50px;
