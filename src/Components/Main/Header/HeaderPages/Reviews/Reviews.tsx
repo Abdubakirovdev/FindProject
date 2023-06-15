@@ -6,7 +6,7 @@ const Reviews = () => {
     return (
         <div id="Reviews" style={{marginTop:"10%"}}>
             <div className="Reviews-hero">
-                <h1>Building Reviews</h1>
+                <h1>Building Reviewse</h1>
                 <div className="Reviews-hero-input">
                     <div className="Reviews-hero-input-inputs">
                         <input type="text" placeholder="Enter building name or community"/>
