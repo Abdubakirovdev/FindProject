@@ -59,6 +59,7 @@
         border-radius: 16px;
         &--image{
          display: block;
+          width: 220px;
         }
         h2{
           font-weight: 500;
@@ -125,15 +126,17 @@
   #ex{
     .ex{
       h1{
-        font-size: 26.43px;
+        font-size: 22.43px;
         line-height: 28px;
-        width: 250px;
       }
       select{
-        width: 128px;
+        width: 116px;
       }
       &--btn1{
         width: 89px;
+      }
+      &--box{
+        display: contents;
       }
     }
   }
@@ -146,10 +149,14 @@
     flex-direction: column;
     h1{
       width: 407px;
+      text-align: center;
     }
     select{
       width: 182px;
       margin-right: 119px;
+    }
+    &--box{
+      display: flex;
     }
   }
 }
@@ -181,7 +188,7 @@
             padding-bottom: 12px;
           }
           &--image{
-            width: 200px;
+            width: 181px;
           }
         }
       }
@@ -206,29 +213,33 @@
 }
 @media (max-width: 320px) {
 #ex{
-  padding-top: 1px;
+  margin-top: -91px;
   .ex{
     h1{
-      width: 318px;
-      font-size: 21.43px;
+      width: 279px;
+      font-size: 20.43px;
     }
     select{
-      width: 144px;
-      margin-right: 40px;
+      width: 136px;
+      margin-right: 32px;
+      font-size: 13px;
     }
     &--cards{
       &__card{
         width: 183px;
-        height: 235px;
+        height: 243px;
         h2{
           font-size: 17.33px;
           line-height: 27px;
           padding-bottom: 5px;
         }
         &--image{
-          width: 180px
+          width: 160px;
         }
       }
+    }
+    &--btn1{
+      font-size: 13px;
     }
   }
 }

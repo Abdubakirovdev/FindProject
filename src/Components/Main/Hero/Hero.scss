@@ -8,7 +8,7 @@
     &--img1 {
       position: relative;
       top: 40px;
-      width: 1390px;
+      width: 1300px;
     }
 
     &--img2 {
@@ -17,15 +17,15 @@
 
     &--block {
       position: absolute;
-      top: 34rem;
-      left: 8rem;
+      top: 32.5rem;
+      left: 9rem;
       display: flex;
       justify-content: space-between;
       padding: 20px;
       background: #FFFFFF;
       border: 1px solid rgba(0, 74, 96, 0.5);
       border-radius: 32px;
-      width: 1300px;
+      width: 1240px;
       height: 136px;
       box-sizing: border-box;
     }
@@ -36,7 +36,7 @@
     }
 
     &--input1 {
-      width: 782px;
+      width: 770px;
       height: 92px;
       background: rgba(0, 74, 96, 0.1);
       border-radius: 16px;
@@ -225,16 +225,17 @@
 #hero{
   .hero{
     h1{
-      top: 12rem;
+      top: 14rem;
       left: 24.5rem;
     }
     &--img1{
       width: 1095px;
+      top: 70px;
     }
     &--block{
       width: 1029px;
-      left: 6rem;
-      top: 28rem;
+      left: 7rem;
+      top: 30rem;
     }
     &--input1{
       width: 534px;
@@ -244,7 +245,26 @@
 }
 
 @media (max-width: 1140px) {
-
+#hero{
+  .hero{
+    h1{
+      top: 11rem;
+      line-height: 68px;
+    }
+    &--img1{
+      width: 925px;
+      top: 38px;
+    }
+    &--block{
+      width: 884px;
+      left: 8rem;
+      top: 24rem;
+    }
+    &--input1{
+      width: 439px;
+    }
+  }
+}
 }
 
 @media (max-width: 1024px) {
@@ -263,7 +283,7 @@
       &--block {
         width: 885px;
         top: 24.5rem;
-        left: 5rem;
+        left: 6rem;
       }
 
       &--input1 {
@@ -289,7 +309,7 @@
       &--block {
         width: 835px;
         top: 24.5rem;
-        left: 5rem;
+        left: 6rem;
       }
 
       &--input1 {
@@ -304,7 +324,7 @@
     .hero {
       h1 {
         position: absolute;
-        top: 9rem;
+        top: 10rem;
         left: 16rem;
         font-size: 41.52px;
         line-height: 46px;
@@ -312,8 +332,8 @@
 
       &--img1 {
         position: relative;
-        top: 10px;
-        width: 706px;
+        top: 23px;
+        width: 679px;
       }
 
       &--block {
@@ -325,31 +345,34 @@
       &--block2{
         position: absolute;
         top: 18rem;
-        left: 4rem;
-        width: 665px;
-        height: 309px;
+        left: 4.5rem;
+        width: 627px;
+        height: 280px;
       }
       &--input11{
-        width: 595px;
+        width: 584px;
+        height: 70px;
       }
       &--btn22{
         position: absolute;
-        right: 3rem;
-        bottom:212px;
+        width: 118px;
+        height: 37px;
+        right: 2rem;
+        bottom: 205px;
       }
       &--btn11{
-        width: 302px;
+        width: 287px;
         margin-top: 20px;
       }
       &--options2{
-        width: 613px;
-        margin-bottom: 20px;
+        width: 583px;
+        margin-bottom: 12px;
       }
       &--option22{
-        width: 304px;
+        width: 286px;
       }
       &--option33{
-        width: 302px;
+        width: 287px;
         margin-left: 9px;
       }
     }
@@ -361,45 +384,44 @@
   .hero{
     h1{
       position: absolute;
-      top: 7.5rem;
-      left: 12rem;
+      top: 9.5rem;
+      left: 11rem;
       font-size: 31.52px;
-      line-height: 37px;
+      line-height: 31px;
     }
     &--img1{
       position: relative;
-      top: -6px;
-      width: 522px;
+      width: 496px;
     }
     &--block2{
       position: absolute;
-      top: 14rem;
-      left: 3rem;
-      width: 482px;
-      height: 290px;
+      top: 15rem;
+      height: 274px;
+      left: 4rem;
+      width: 447px;
     }
     &--input11{
-      width: 416px;
-      height: 75px;
+      width: 406px;
+      height: 60px;
     }
     &--btn22{
       position: absolute;
       right: 36px;
-      bottom: 225px;
-      width: 119px;
-      height: 46px;
+      bottom: 206px;
+      width: 107px;
+      height: 34px;
     }
     &--btn11{
-      width: 210px;
+      width: 198px;
     }
     &--options2{
-      width: 426px;
+      width: 404px;
     }
     &--option22{
-      width: 211px;
+      width: 198px;
     }
     &--option33{
-      width: 211px;
+      width: 198px;
     }
   }
 }
@@ -410,7 +432,7 @@
   .hero{
     h1{
       position: absolute;
-      top: 12rem;
+      top: 14rem;
       left: 6rem;
       font-size: 30.52px;
       line-height: 34px;
@@ -420,15 +442,17 @@
     }
     &--img2{
       display: block;
+      position: relative;
+      top: 24px;
     }
     &--block2{
-      position: absolute;
-      top: 20rem;
-      left: 3rem;
       width: 344px;
+      position: absolute;
+      top: 23rem;
+      left: 3.5rem;
     }
     &--input11{
-      width: 282px;
+      width: 300px;
       height: 54px;
     }
     &--btn22{
@@ -460,14 +484,49 @@
 #hero{
   .hero{
     h1{
-      top: 12rem;
+      top: 13rem;
       left: 4rem;
+      font-size: 29.52px;
     }
     &--block2{
-      left: 1.6rem;
+      left: 3rem;
+      width: 302px;
+      height: 232px;
     }
     &--img2{
-      width: 360px;
+      width: 333px;
+    }
+    &--input11{
+      width: 262px;
+      height: 41px;
+      font-size: 13px;
+    }
+    &--btn11{
+      width: 127px;
+      height: 30px;
+      font-size: 13px;
+    }
+    &--btn22{
+      width: 80px;
+      height: 23px;
+      font-size: 11px;
+      bottom: 177px;
+      right: 27px;
+    }
+    &--options2{
+      width: 263px;
+      height: 35px;
+      font-size: 13px;
+    }
+    &--option22{
+      width: 126px;
+      height: 35px;
+      font-size: 13px;
+    }
+    &--option33{
+      width: 126px;
+      height: 35px;
+      font-size: 13px;
     }
   }
 }
@@ -485,20 +544,21 @@
 #hero{
   .hero{
     h1{
-      font-size: 24.52px;
-      line-height: 28px;
-      left: 56px;
+      font-size: 23.52px;
+      line-height: 24px;
+      left: 73px;
     }
     &--img2{
       width: 288px;
     }
     &--block2{
       width: 266px;
-      height: 244px;
+      height: 226px;
       border-radius: 10px;
+      left: 38px;
     }
     &--input11{
-      width: 211px;
+      width: 231px;
       height: 48px;
       border-radius: 10px;
       font-size: 12px;
@@ -518,11 +578,11 @@
       width: 111px;
     }
     &--btn22{
-      width: 70px;
-      height: 25px;
+      width: 66px;
+      height: 21px;
       font-size: 11px;
-      bottom: 186px;
-      right: 19px;
+      bottom: 169px;
+      right: 26px;
     }
   }
 }
