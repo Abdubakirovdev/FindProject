@@ -54,6 +54,7 @@
           height: 105px;
           background: rgba(0, 74, 96, 0.1);
           border-radius: 16px;
+          border: none;
         }
 
         button {
@@ -100,16 +101,18 @@
     }
 
     &__peoples {
-      padding: 200px 0 50px 200px;
+      padding: 200px 0 50px 201px;
+      margin: 0 -55px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-      width: 1120px;
+      width: 1420px;
       height: 980px;
 
       &--alex {
         padding: 0 0 24px;
+        margin: 0 0 30px;
         gap: 8px;
         width: 256px;
         height: 422px;
@@ -165,6 +168,7 @@
     }
 
     &__see {
+      margin: 130px 0 0 0;
       padding: 8px 16px;
       gap: 8px;
       width: 109px;
@@ -192,8 +196,10 @@
     left: 310px;
   }
   #agents .agents__peoples {
-    padding: 200px 0 50px 45px;
+    padding: 200px 0 50px 249px;
+    margin: 0 -235px;
   }
+
 }
 @media (max-width: 1140px) {
   #agents .agents__find {
@@ -204,6 +210,7 @@
   }
   #agents .agents__peoples {
     padding: 200px 0 50px 10px;
+    margin: 0 -290px;
   }
 }
 @media (max-width: 1024px) {
@@ -217,6 +224,7 @@
   #agents .agents__peoples {
     padding: 200px 0 50px 40px;
     width: 935px;
+    margin: 0 50px;
   }
   #agents .agents__peoples--alex {
     padding: 0 0 0;
@@ -226,7 +234,7 @@
   //  padding: 90px 0 190px 0;
   //}
   #agents .agents__see {
-    margin: 375px 0 0 0;
+    margin: 600px 0 0 0;
   }
 }
 @media (max-width: 992px) {
@@ -255,7 +263,7 @@
     width: 635px;
   }
   #agents .agents__see {
-    margin: 817px 0 0 0;
+    margin: 1055px 0 0 0;
   }
 }
 @media (max-width: 576px) {
@@ -281,7 +289,10 @@
   }
   #agents .agents__peoples {
     width: 525px;
-    padding: 200px 0 50px 28px;
+    padding: 200px 0 50px 115px;
+  }
+  #agents .agents__see {
+    margin: 2913px 0 0 0;
   }
 }
 @media (max-width: 451px) {
@@ -299,7 +310,7 @@
   }
   #agents .agents__search--cont button {
     top: 15px;
-    width: 85px;
+    width: 90px;
     height: 40px;
   }
   #agents .agents__peoples {
@@ -307,7 +318,7 @@
     padding: 200px 0 50px 98px;
   }
   #agents .agents__see {
-    margin: 2633px 0 0 0;
+    margin: 2833px 0 0 0;
   }
 }
 @media (max-width: 400px) {
@@ -324,7 +335,7 @@
     height: 31px;
   }
   #agents .agents__peoples {
-    padding: 200px 0 50px 70px;
+    padding: 200px 0 50px 0;
   }
 }
 @media (max-width: 380px) {
@@ -332,6 +343,11 @@
     left: -55px;
     top: 45px;
     font-size: 20px;
+  }
+  #agents .agents__search--cont button {
+    width: 28px;
+    height: 31px;
+    font-size: 12px;
   }
 }
 @media (max-width: 375px) {
@@ -363,6 +379,6 @@
     left: 125px;
   }
   #agents .agents__peoples {
-    padding: 200px 0 50px 35px;
+    padding: 200px 0 50px 0px;
   }
 }
