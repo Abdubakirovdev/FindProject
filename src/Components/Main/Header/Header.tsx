@@ -4,12 +4,23 @@ import logo from '../../../Imgs/Logo.svg'
 import {NavLink, useNavigate} from "react-router-dom";
 import {RiMenu3Line} from "react-icons/ri";
 import {IoCloseSharp} from "react-icons/io5";
+import {CgProfile} from "react-icons/cg";
+import {useAppSelector} from "../../../Hooks/UseAppSelector";
 
 
 const Header = () => {
 
     const navigate = useNavigate()
     const [burger, setBurger] = useState(false)
+    const [header, setHeader] = useState(false)
+
+    const {log} = useAppSelector(s => s.LoginSlice)
+
+    const showLog = log.slice(0,1).map(el => el.email)
+    const getHead = () =>{
+        let loc = localStorage.getItem('value')
+        console.log(loc)
+    }
 
     return (
         <header id='header'>
@@ -17,11 +28,13 @@ const Header = () => {
                 <div className='header'>
                     <div className="header--logo">
                         <NavLink to={'/'}>
-                            <img src={logo} alt="img"/>
+                            {
+                                header ? <CgProfile/> : <img src={logo} alt="img"/>
+                            }
                         </NavLink>
                     </div>
                     <div className="header--logo2">
-                        <button onClick={()=> setBurger(!burger)}>{burger?  <IoCloseSharp/> : <RiMenu3Line/>}</button>
+                        <button onClick={() => setBurger(!burger)}>{burger ? <IoCloseSharp/> : <RiMenu3Line/>}</button>
                     </div>
                     <div className='header--burger' style={{
                         display: burger ? 'block' : 'none'
@@ -60,7 +73,7 @@ const Header = () => {
                             </select>
                         </div>
                         <div className='header--search__button'>
-                            <button onClick={() => navigate('register')}>Log in</button>
+                            <button onClick={() => navigate('register')}>{showLog.length > 0 ? "Syrgabek" : "login"}</button>
                         </div>
                     </div>
                 </div>
