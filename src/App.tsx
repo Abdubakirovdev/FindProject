@@ -12,6 +12,8 @@ import Rent from "./Components/Main/Explore/Dream/RentsHero/Rent";
 import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
 import Reviews from "./Components/Main/Header/HeaderPages/Reviews/Reviews";
 import Profile from "./Components/Main/Header/HeaderPages/Register/Profile/Profile";
+import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg"
+import Property from "./Components/Main/AddProporty/Property";
 
 
 function App() {
@@ -22,13 +24,15 @@ function App() {
                 <Route path={'/'} element={<Main/>}/>
                 <Route path={'/apartamen'} element={<Apartamen/>}/>
                 <Route path={'/explore'} element={<Explore/>}/>
-                <Route path={'register'} element={<Register/>}/>
+                <Route path={'/register'} element={<Register/>}/>
                 <Route path={'/buy'} element={<Buy/>}/>
                 <Route path={'/rent'} element={<Rent/>}/>
                 <Route path={'/agents'} element={<Agents/>}/>
                 <Route path={'/review'} element={<Reviews/>}/>
                 <Route path={'/apartment'} element={<Apartamen/>}/>
                 <Route path={'/profile'} element={<Profile/>}/>
+                <Route path={'/regis'} element={<Reg/>}/>
+                <Route path={'/property'} element={<Property/>}/>
             </Routes>
 
             <Footer/>
