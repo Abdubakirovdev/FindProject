@@ -41,10 +41,16 @@ const Reviews = () => {
                                         </div>
                                         <div className="Reviews-top-reviews-left-one-right-btn">
                                             <div>
-                                                <button className="btns btn btn-outline-primary">Read reviews</button>
+                                                <button className="btns"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Read reviews</button>
                                             </div>
                                             <div>
-                                                <button type="button" className="btns btn btn-outline-danger">Write review</button>
+                                                <button type="button" className="btns2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.728 9.68599L14.314 8.27199L5 17.586V19H6.414L15.728 9.68599ZM17.142 8.27199L18.556 6.85799L17.142 5.44399L15.728 6.85799L17.142 8.27199ZM7.242 21H3V16.757L16.435 3.32199C16.6225 3.13452 16.8768 3.02921 17.142 3.02921C17.4072 3.02921 17.6615 3.13452 17.849 3.32199L20.678 6.15099C20.8655 6.33852 20.9708 6.59283 20.9708 6.85799C20.9708 7.12316 20.8655 7.37746 20.678 7.56499L7.242 21Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Write review</button>
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +76,10 @@ const Reviews = () => {
                                 <p className="Reviews-top-reviews-right-one-p">It’s an awesome home with a great view to a <br/>
                                     city. I would definitely recommend to rent this <br/>
                                     property</p>
-                                <button type="button" className="btn btn-outline-dark">More reviews</button>
+                                <button type="button" className="btn btn-outline-dark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                </svg>
+                                    More reviews</button>
                             </div>
                         </div>
                     </div>
@@ -98,11 +107,15 @@ const Reviews = () => {
                                         </div>
                                         <div className="Reviews-top-reviews-left-one-right-btn">
                                             <div>
-                                                <button className="btns btn btn-outline-primary">Read reviews</button>
-                                            </div>
+                                                <button className="btns"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Read reviews</button>                                            </div>
                                             <div>
-                                                <button type="button" className="btns btn btn-outline-danger">Write review</button>
-                                            </div>
+                                                <button type="button" className="btns2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.728 9.68599L14.314 8.27199L5 17.586V19H6.414L15.728 9.68599ZM17.142 8.27199L18.556 6.85799L17.142 5.44399L15.728 6.85799L17.142 8.27199ZM7.242 21H3V16.757L16.435 3.32199C16.6225 3.13452 16.8768 3.02921 17.142 3.02921C17.4072 3.02921 17.6615 3.13452 17.849 3.32199L20.678 6.15099C20.8655 6.33852 20.9708 6.59283 20.9708 6.85799C20.9708 7.12316 20.8655 7.37746 20.678 7.56499L7.242 21Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Write review</button>                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +139,10 @@ const Reviews = () => {
                                 <p className="Reviews-top-reviews-right-one-p">It’s an awesome home with a great view to a <br/>
                                     city. I would definitely recommend to rent this <br/>
                                     property</p>
-                                <button type="button" className="btn btn-outline-dark">More reviews</button>
+                                <button type="button" className="btn btn-outline-dark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                </svg>
+                                    More reviews</button>
                             </div>
                         </div>
                     </div>
@@ -154,11 +170,15 @@ const Reviews = () => {
                                         </div>
                                         <div className="Reviews-top-reviews-left-one-right-btn">
                                             <div>
-                                                <button className="btns btn btn-outline-primary">Read reviews</button>
-                                            </div>
+                                                <button className="btns"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Read reviews</button>                                            </div>
                                             <div>
-                                                <button type="button" className="btns btn btn-outline-danger">Write review</button>
-                                            </div>
+                                                <button type="button" className="btns2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.728 9.68599L14.314 8.27199L5 17.586V19H6.414L15.728 9.68599ZM17.142 8.27199L18.556 6.85799L17.142 5.44399L15.728 6.85799L17.142 8.27199ZM7.242 21H3V16.757L16.435 3.32199C16.6225 3.13452 16.8768 3.02921 17.142 3.02921C17.4072 3.02921 17.6615 3.13452 17.849 3.32199L20.678 6.15099C20.8655 6.33852 20.9708 6.59283 20.9708 6.85799C20.9708 7.12316 20.8655 7.37746 20.678 7.56499L7.242 21Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Write review</button>                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +202,10 @@ const Reviews = () => {
                                 <p className="Reviews-top-reviews-right-one-p">It’s an awesome home with a great view to a <br/>
                                     city. I would definitely recommend to rent this <br/>
                                     property</p>
-                                <button type="button" className="btn btn-outline-dark">More reviews</button>
+                                <button type="button" className="btn btn-outline-dark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                </svg>
+                                    More reviews</button>
                             </div>
                         </div>
                     </div>
@@ -210,11 +233,15 @@ const Reviews = () => {
                                         </div>
                                         <div className="Reviews-top-reviews-left-one-right-btn">
                                             <div>
-                                                <button className="btns btn btn-outline-primary">Read reviews</button>
-                                            </div>
+                                                <button className="btns"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Read reviews</button>                                            </div>
                                             <div>
-                                                <button type="button" className="btns btn btn-outline-danger">Write review</button>
-                                            </div>
+                                                <button type="button" className="btns2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.728 9.68599L14.314 8.27199L5 17.586V19H6.414L15.728 9.68599ZM17.142 8.27199L18.556 6.85799L17.142 5.44399L15.728 6.85799L17.142 8.27199ZM7.242 21H3V16.757L16.435 3.32199C16.6225 3.13452 16.8768 3.02921 17.142 3.02921C17.4072 3.02921 17.6615 3.13452 17.849 3.32199L20.678 6.15099C20.8655 6.33852 20.9708 6.59283 20.9708 6.85799C20.9708 7.12316 20.8655 7.37746 20.678 7.56499L7.242 21Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Write review</button>                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +265,10 @@ const Reviews = () => {
                                 <p className="Reviews-top-reviews-right-one-p">It’s an awesome home with a great view to a <br/>
                                     city. I would definitely recommend to rent this <br/>
                                     property</p>
-                                <button type="button" className="btn btn-outline-dark">More reviews</button>
+                                <button type="button" className="btn btn-outline-dark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                </svg>
+                                    More reviews</button>
                             </div>
                         </div>
                     </div>
@@ -266,11 +296,15 @@ const Reviews = () => {
                                         </div>
                                         <div className="Reviews-top-reviews-left-one-right-btn">
                                             <div>
-                                                <button className="btns btn btn-outline-primary">Read reviews</button>
-                                            </div>
+                                                <button className="btns"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Read reviews</button>                                            </div>
                                             <div>
-                                                <button type="button" className="btns btn btn-outline-danger">Write review</button>
-                                            </div>
+                                                <button type="button" className="btns2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.728 9.68599L14.314 8.27199L5 17.586V19H6.414L15.728 9.68599ZM17.142 8.27199L18.556 6.85799L17.142 5.44399L15.728 6.85799L17.142 8.27199ZM7.242 21H3V16.757L16.435 3.32199C16.6225 3.13452 16.8768 3.02921 17.142 3.02921C17.4072 3.02921 17.6615 3.13452 17.849 3.32199L20.678 6.15099C20.8655 6.33852 20.9708 6.59283 20.9708 6.85799C20.9708 7.12316 20.8655 7.37746 20.678 7.56499L7.242 21Z" fill="#004A60" fill-opacity="0.7"/>
+                                                </svg>
+                                                    Write review</button>                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +328,10 @@ const Reviews = () => {
                                 <p className="Reviews-top-reviews-right-one-p">It’s an awesome home with a great view to a <br/>
                                     city. I would definitely recommend to rent this <br/>
                                     property</p>
-                                <button type="button" className="btn btn-outline-dark">More reviews</button>
+                                <button type="button" className="btn btn-outline-dark"><svg className="hover:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.455 19L2 22.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V18C22 18.2652 21.8946 18.5196 21.7071 18.7071C21.5196 18.8946 21.2652 19 21 19H6.455ZM5.763 17H20V5H4V18.385L5.763 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z" fill="#004A60" fill-opacity="0.7"/>
+                                </svg>
+                                    More reviews</button>
                             </div>
                         </div>
                     </div>
