@@ -12,15 +12,12 @@ const Header = () => {
 
     const navigate = useNavigate()
     const [burger, setBurger] = useState(false)
-    const [header, setHeader] = useState(false)
 
-    const {log} = useAppSelector(s => s.LoginSlice)
+    const {log} = useAppSelector(s => s.loginSlice)
 
     const showLog = log.slice(0,1).map(el => el.email)
-    const getHead = () =>{
-        let loc = localStorage.getItem('value')
-        console.log(loc)
-    }
+    const showName = log.slice(0,1).map(el => el.name)
+
 
     return (
         <header id='header'>
@@ -28,9 +25,7 @@ const Header = () => {
                 <div className='header'>
                     <div className="header--logo">
                         <NavLink to={'/'}>
-                            {
-                                header ? <CgProfile/> : <img src={logo} alt="img"/>
-                            }
+                            <img src={logo} alt="img"/>
                         </NavLink>
                     </div>
                     <div className="header--logo2">
@@ -47,7 +42,7 @@ const Header = () => {
                                 <NavLink to={'/review'}>Reviews</NavLink>
                             </div>
                             <div className='header--burger__nav--button'>
-                                <button onClick={() => navigate('register')}>Log in</button>
+                                <button onClick={() => {showLog.length > 0 ? navigate('/profile'): navigate('/register') }}>{showLog.length > 0 ? showName : "login"}</button>
                             </div>
                             <div className='header--burger__nav--select'>
                                 <select name="" id="">
@@ -73,12 +68,12 @@ const Header = () => {
                             </select>
                         </div>
                         <div className='header--search__button'>
-                            <button onClick={() => navigate('register')}>{showLog.length > 0 ? "Syrgabek" : "login"}</button>
+                            <button onClick={() => {showLog.length > 0 ? navigate('/profile'): navigate('/register') }}>{showLog.length > 0 ? showName : "login"}</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr className='hrr'/>
         </header>
     );
 };
