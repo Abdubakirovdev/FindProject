@@ -1,0 +1,3019 @@
+#rent {
+  .rent {
+    &--inputs {
+      margin-top: 150px;
+
+      &__btn {
+        width: 121px;
+        height: 56px;
+        background: #1B76F9;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        color: white;
+        position: absolute;
+        right: 40rem;
+
+        .searchIcon {
+          left: 8px;
+          font-size: 26px;
+          position: absolute;
+        }
+      }
+
+      &__btnBlock {
+        position: absolute;
+        margin: 20px 0 0 0;
+
+        button {
+          width: 157px;
+          height: 40px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 8px;
+          color: rgba(0, 74, 96, 0.7);
+          background: transparent;
+          transition: .4s;
+        }
+
+        &--lastBtn {
+          margin-left: 15px;
+        }
+      }
+
+      input {
+        outline: none;
+        border: none;
+        padding-left: 15px;
+        width: 710px;
+        height: 56px;
+        background: rgba(0, 74, 96, 0.1);
+        border-radius: 16px;
+      }
+
+      &__select {
+
+
+        &--bb {
+          display: flex;
+          margin: -35px 0 0 55.5rem;
+        }
+
+        p {
+          position: absolute;
+          top: 14.5rem;
+          right: 19rem;
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12.8px;
+          color: rgba(0, 74, 96, 0.7);
+        }
+
+        &--option {
+          width: 143px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionRooms {
+          width: 90px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionPrice {
+          width: 90px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionLast {
+          width: 113px;
+          margin: 10px 0 0 70rem;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+      }
+    }
+
+    &--houses {
+      display: flex;
+      justify-content: space-between;
+
+      &__home {
+        &--img {
+          width: 240px;
+          height: 240px;
+          margin: 8px 0 0 8px;
+        }
+
+        &--div {
+          padding-left: 15px;
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #004A60;
+            margin-top: 20px;
+            line-height: 0;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 21.33px;
+            color: #004A60;
+          }
+
+          &__block {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 80px;
+
+            p {
+              margin: 0 10px;
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: rgba(0, 74, 96, 0.7);
+            }
+          }
+        }
+
+        margin: 100px 0 -75px 0;
+        width: 640px;
+        height: 256px;
+        border: 1px solid rgba(0, 74, 96, 0.5);
+        border-radius: 16px;
+        display: flex;
+
+        &--lastBlock {
+          display: flex;
+          justify-content: space-between;
+
+          h4 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #004A60;
+            padding-top: 13rem;
+            margin-left: -23rem;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1B76F9;
+            padding-top: 13rem;
+            padding-right: 100px;
+          }
+        }
+      }
+
+      &__popular {
+        margin-top: 100px;
+        width: 520px;
+        height: 1px;
+        background: rgba(0, 74, 96, 0.5);
+
+        h1 {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 15px;
+          color: #004A60;
+        }
+
+        p {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12.8px;
+          line-height: 19px;
+          color: rgba(0, 74, 96, 0.7);
+        }
+      }
+    }
+
+    &--pagination {
+      margin: 200px 0 0 19rem;
+
+      &__btn {
+        width: 42px;
+        height: 40px;
+        border: 1px solid #1B76F9;
+        border-radius: 8px;
+        color: #0762E5;
+        margin: 0 5px;
+        background: transparent;
+      }
+
+      &__lastBtn {
+        width: 60px;
+        height: 40px;
+        border: 1px solid #1B76F9;
+        border-radius: 8px;
+        color: white;
+        background: #0762E5;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .rent {
+    &--inputs {
+      margin-top: 150px;
+
+      &__btn {
+        width: 121px;
+        height: 56px;
+        background: #1B76F9;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        color: white;
+        position: absolute;
+        right: 40rem;
+
+        .searchIcon {
+          left: 8px;
+          font-size: 26px;
+          position: absolute;
+        }
+      }
+
+      &__btnBlock {
+        position: absolute;
+        margin: 20px 0 0 0;
+
+        button {
+          width: 157px;
+          height: 40px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 8px;
+          color: rgba(0, 74, 96, 0.7);
+          background: transparent;
+          transition: .4s;
+        }
+
+        &--lastBtn {
+          margin-left: 15px;
+        }
+      }
+
+      input {
+        outline: none;
+        border: none;
+        padding-left: 15px;
+        width: 710px;
+        height: 56px;
+        background: rgba(0, 74, 96, 0.1);
+        border-radius: 16px;
+      }
+
+      &__select {
+
+
+        &--bb {
+          display: flex;
+          margin: -35px 0 0 55.5rem;
+        }
+
+        p {
+          position: absolute;
+          top: 14.5rem;
+          right: 19rem;
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12.8px;
+          color: rgba(0, 74, 96, 0.7);
+        }
+
+        &--option {
+          width: 143px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionRooms {
+          width: 90px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionPrice {
+          width: 90px;
+          margin: 0 4px;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+
+        &--optionLast {
+          width: 113px;
+          margin: 10px 0 0 70rem;
+          height: 35px;
+          background: #FFFFFF;
+          border: 1px solid rgba(0, 74, 96, 0.7);
+          border-radius: 10px;
+          color: rgba(0, 74, 96, 0.7);
+          outline: none;
+        }
+      }
+    }
+
+    &--houses {
+      display: flex;
+      justify-content: space-between;
+
+      &__home {
+        &--img {
+          width: 240px;
+          height: 240px;
+          margin: 8px 0 0 8px;
+        }
+
+        &--div {
+          padding-left: 15px;
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #004A60;
+            margin-top: 20px;
+            line-height: 0;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 21.33px;
+            color: #004A60;
+          }
+
+          &__block {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 80px;
+
+            p {
+              margin: 0 10px;
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: rgba(0, 74, 96, 0.7);
+            }
+          }
+        }
+
+        margin: 100px 0 -75px 0;
+        width: 640px;
+        height: 256px;
+        border: 1px solid rgba(0, 74, 96, 0.5);
+        border-radius: 16px;
+        display: flex;
+
+        &--lastBlock {
+          display: flex;
+          justify-content: space-between;
+
+          h4 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #004A60;
+            padding-top: 13rem;
+            margin-left: -23rem;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1B76F9;
+            padding-top: 13rem;
+            padding-right: 100px;
+          }
+        }
+      }
+
+      &__popular {
+        margin-top: 100px;
+        width: 520px;
+        height: 1px;
+        background: rgba(0, 74, 96, 0.5);
+
+        h1 {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 15px;
+          color: #004A60;
+        }
+
+        p {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12.8px;
+          line-height: 19px;
+          color: rgba(0, 74, 96, 0.7);
+        }
+      }
+    }
+
+    &--pagination {
+      margin: 200px 0 0 19rem;
+
+      &__btn {
+        width: 42px;
+        height: 40px;
+        border: 1px solid #1B76F9;
+        border-radius: 8px;
+        color: #0762E5;
+        margin: 0 5px;
+        background: transparent;
+      }
+
+      &__lastBtn {
+        width: 60px;
+        height: 40px;
+        border: 1px solid #1B76F9;
+        border-radius: 8px;
+        color: white;
+        background: #0762E5;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          width: 121px;
+          height: 56px;
+          background: #1B76F9;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          color: white;
+          position: absolute;
+          right: 35rem;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 20px 0 0 0;
+
+          button {
+            width: 157px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 542px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            display: flex;
+            margin: -35px 0 0 49rem;
+          }
+
+          p {
+            position: absolute;
+            top: 14.5rem;
+            right: 12rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            width: 143px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            width: 113px;
+            margin: 10px 0 0 60rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 21.33px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 607px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -21rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 100px;
+            }
+          }
+        }
+
+        &__popular {
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 19rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1140px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          width: 121px;
+          height: 56px;
+          background: #1B76F9;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          color: white;
+          position: absolute;
+          right: 32rem;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 20px 0 0 0;
+
+          button {
+            width: 157px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 504px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            display: flex;
+            margin: -35px 0 0 36rem;
+          }
+
+          p {
+            position: absolute;
+            top: 14.5rem;
+            right: 16rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            width: 143px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            width: 113px;
+            margin: 10px 0 0 50rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 21.33px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 560px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -17.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 14rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          padding: 0 22px 0 46px;
+          width: 90px;
+          top: 9.4rem;
+          height: 56px;
+          background: #1B76F9;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          color: white;
+          position: absolute;
+          display: flex;
+          right: 34rem;
+          justify-content: center;
+          align-items: center;
+          font-size: 11px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 20px 0 0 0;
+
+          button {
+            width: 121px;
+            font-size: 10px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 383px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            display: flex;
+            margin: -35px 0 0 34rem;
+          }
+
+          p {
+            position: absolute;
+            top: 14.5rem;
+            right: 13rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            width: 143px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            width: 113px;
+            margin: 10px 0 0 48.4rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 21.33px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 560px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -17.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 14rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          padding: 0 22px 0 46px;
+          width: 90px;
+          top: 9.4rem;
+          height: 56px;
+          background: #1B76F9;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          color: white;
+          position: absolute;
+          display: flex;
+          right: 34rem;
+          justify-content: center;
+          align-items: center;
+          font-size: 11px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 20px 0 0 0;
+
+          button {
+            width: 121px;
+            font-size: 10px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 383px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            display: flex;
+            margin: -35px 0 0 32rem;
+          }
+
+          p {
+            position: absolute;
+            top: 14.5rem;
+            right: 13rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            font-size: 15px;
+            text-align: center;
+            width: 143px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            font-size: 15px;
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            font-size: 15px;
+            width: 90px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 113px;
+            margin: 10px 0 0 46.4rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 21.33px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 560px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -17.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 11rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 23rem;
+          padding: 0 22px 0 46px;
+          width: 90px;
+          top: 9.4rem;
+          height: 56px;
+          font-size: 11px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 20px 0 0 0;
+
+          button {
+            width: 89px;
+            font-size: 9px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 324px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            display: flex;
+            margin: -35px 0 0 26rem;
+          }
+
+          p {
+            position: absolute;
+            top: 14.5rem;
+            right: 10rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            font-size: 13px;
+            text-align: center;
+            width: 108px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            font-size: 13px;
+            width: 66px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            font-size: 13px;
+            width: 66px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 91px;
+            margin: 10px 0 0 35.8rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 21.33px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 560px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -17.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 3rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 1rem;
+          padding: 0 22px 0 46px;
+          width: 90px;
+          top: 9.4rem;
+          height: 56px;
+          font-size: 11px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 60px 0 0 0;
+
+          button {
+            width: 117px;
+            font-size: 11px;
+            height: 40px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 461px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            margin: 15px 0 0 0;
+          }
+
+          p {
+            position: absolute;
+            top: 20.6rem;
+            right: 30.6rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            font-size: 14px;
+            text-align: center;
+            width: 114px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            margin: 0 12px 0 12px;
+            font-size: 14px;
+            width: 90px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            margin: 0 0 0 0;
+            font-size: 14px;
+            width: 90px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 91px;
+            //margin: 10px 0 0 17.8rem;
+            margin: 62px 0 0 3.8rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 19px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 80px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 475px;
+          height: 256px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 13rem;
+              margin-left: -12.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 13rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 3rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 451px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 2rem;
+          padding: 0 22px 0 46px;
+          width: 79px;
+          top: 10rem;
+          height: 36px;
+          font-size: 10px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 102px 0 0 3px;
+
+          button {
+            width: 182px;
+            font-size: 9px;
+            height: 35px;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          padding-left: 15px;
+          width: 399px;
+          height: 56px;
+        }
+        input::placeholder {
+          font-size: 13px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            margin: 15px 0 0 0;
+          }
+
+          p {
+            position: absolute;
+            top: 23rem;
+            right: 14.5rem;
+            font-size: 12.8px;
+          }
+
+          &--option {
+            font-size: 14px;
+            width: 390px;
+            margin: 0 4px;
+            height: 35px;
+          }
+
+          &--optionRooms {
+            margin-left: -24rem;
+            font-size: 14px;
+            width: 188px;
+            height: 35px;
+
+          }
+
+          &--optionPrice {
+            margin: 42px 0 0 0;
+            font-size: 14px;
+            width: 187px;
+            height: 35px;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 182px;
+            margin: 54px 0 0 12.5rem;
+            height: 35px;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-size: 16px;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-size: 19px;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 19px;
+
+              p {
+                margin: 0 10px;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 263px;
+          height: 437px;
+          display: flex;
+          flex-direction: column;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-size: 16px;
+              line-height: 24px;
+              padding-top: 1.5rem;
+              margin-left: 1.7rem;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              padding-top: 1.5rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+
+          h1 {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 2rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          margin: 0 5px;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 2rem;
+          padding: 0 22px 0 46px;
+          width: 79px;
+          top: 10rem;
+          height: 36px;
+          font-size: 10px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 102px 0 0 3px;
+
+          button {
+            width: 158px;
+            font-size: 9px;
+            height: 35px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          padding-left: 15px;
+          width: 348px;
+          height: 56px;
+        }
+        input::placeholder {
+          font-size: 13px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            margin: 15px 0 0 0;
+          }
+
+          p {
+            position: absolute;
+            top: 23.2rem;
+            right: 12.5rem;
+            font-size: 12.8px;
+          }
+
+          &--option {
+            font-size: 14px;
+            width: 336px;
+            margin: 0 4px;
+            height: 35px;
+          }
+
+          &--optionRooms {
+            margin-left: -20.9rem;
+            font-size: 14px;
+            width: 164px;
+            height: 35px;
+
+          }
+
+          &--optionPrice {
+            margin: 42px 0 0 0;
+            font-size: 14px;
+            width: 164px;
+            height: 35px;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 158px;
+            margin: 54px 0 0 11.1rem;
+            height: 35px;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 19px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 19px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 263px;
+          height: 437px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 1.5rem;
+              margin-left: 1.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 1.5rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 2rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 376px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 2rem;
+          padding: 0 22px 0 46px;
+          width: 79px;
+          top: 10rem;
+          height: 36px;
+          font-size: 10px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 102px 0 0 3px;
+
+          button {
+            width: 148px;
+            font-size: 9px;
+            height: 35px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 320px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+        input::placeholder {
+          font-size: 13px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            margin: 15px 0 0 0;
+          }
+
+          p {
+            position: absolute;
+            top: 23.2rem;
+            right: 10rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            font-size: 14px;
+            text-align: center;
+            width: 319px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            margin: 43px 10px 0 -312px;
+            font-size: 14px;
+            width: 155px;
+
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            margin: 42px 0 0 0;
+            font-size: 14px;
+            width: 155px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 126px;
+            margin: 54px 0 0 11.7rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 19px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 19px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 263px;
+          height: 437px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 1.5rem;
+              margin-left: 1.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 1.5rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 2rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  #rent {
+    .rent {
+      &--inputs {
+        margin-top: 150px;
+
+        &__btn {
+          right: 2rem;
+          padding: 0 22px 0 46px;
+          width: 79px;
+          top: 10rem;
+          height: 36px;
+          font-size: 10px;
+
+          .searchIcon {
+            left: 8px;
+            font-size: 26px;
+            position: absolute;
+          }
+        }
+
+        &__btnBlock {
+          position: absolute;
+          margin: 102px 0 0 3px;
+
+          button {
+            width: 123px;
+            font-size: 9px;
+            height: 35px;
+            border: 1px solid rgba(0, 74, 96, 0.5);
+            border-radius: 8px;
+            color: rgba(0, 74, 96, 0.7);
+            background: transparent;
+            transition: .4s;
+          }
+
+          &--lastBtn {
+            margin-left: 15px;
+          }
+        }
+
+        input {
+          outline: none;
+          border: none;
+          padding-left: 15px;
+          width: 267px;
+          height: 56px;
+          background: rgba(0, 74, 96, 0.1);
+          border-radius: 16px;
+        }
+        input::placeholder {
+          font-size: 13px;
+        }
+
+        &__select {
+
+
+          &--bb {
+            margin: 15px 0 0 0;
+          }
+
+          p {
+            position: absolute;
+            top: 23.2rem;
+            right: 10rem;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+
+          &--option {
+            font-size: 14px;
+            text-align: center;
+            width: 261px;
+            margin: 0 4px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionRooms {
+            //margin: 42px 12px 0 -317px;
+            //font-size: 14px;
+            //width: 130px;
+            margin: 43px 10px 0 -267px;
+            font-size: 14px;
+            width: 126px;
+
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionPrice {
+            margin: 42px 0 0 0;
+            font-size: 14px;
+            width: 126px;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+
+          &--optionLast {
+            font-size: 15px;
+            width: 126px;
+            margin: 54px 0 0 8.7rem;
+            height: 35px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 74, 96, 0.7);
+            border-radius: 10px;
+            color: rgba(0, 74, 96, 0.7);
+            outline: none;
+          }
+        }
+      }
+
+      &--houses {
+        display: flex;
+        justify-content: space-between;
+
+        &__home {
+          &--img {
+            width: 240px;
+            height: 240px;
+            margin: 8px 0 0 8px;
+          }
+
+          &--div {
+            padding-left: 15px;
+
+            h1 {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              color: #004A60;
+              margin-top: 20px;
+              line-height: 0;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 19px;
+              color: #004A60;
+            }
+
+            &__block {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 19px;
+
+              p {
+                margin: 0 10px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+                color: rgba(0, 74, 96, 0.7);
+              }
+            }
+          }
+
+          margin: 100px 0 -75px 0;
+          width: 263px;
+          height: 437px;
+          border: 1px solid rgba(0, 74, 96, 0.5);
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+
+          &--lastBlock {
+            display: flex;
+            justify-content: space-between;
+
+            h4 {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #004A60;
+              padding-top: 1.5rem;
+              margin-left: 1.7rem;
+            }
+
+            p {
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #1B76F9;
+              padding-top: 1.5rem;
+              padding-right: 36px;
+            }
+          }
+        }
+
+        &__popular {
+          display: none;
+          margin-top: 100px;
+          width: 271px;
+          height: 1px;
+          background: rgba(0, 74, 96, 0.5);
+
+          h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            color: #004A60;
+          }
+
+          p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 19px;
+            color: rgba(0, 74, 96, 0.7);
+          }
+        }
+      }
+
+      &--pagination {
+        margin: 200px 0 0 2rem;
+
+        &__btn {
+          width: 42px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: #0762E5;
+          margin: 0 5px;
+          background: transparent;
+        }
+
+        &__lastBtn {
+          width: 60px;
+          height: 40px;
+          border: 1px solid #1B76F9;
+          border-radius: 8px;
+          color: white;
+          background: #0762E5;
+        }
+      }
+    }
+  }
+
+}

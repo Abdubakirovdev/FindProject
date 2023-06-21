@@ -8,7 +8,7 @@ import Explore from "./Components/Main/Explore/Explore";
 import Apartamen from "./Components/Main/Explore/Dream/Apartamen";
 import Register from "./Components/Main/Header/HeaderPages/Register/Register";
 import Buy from "./Components/Main/Header/HeaderPages/Buy/Buy";
-import Rent from "./Components/Main/Explore/Dream/RentsHero/Rent";
+import Rent from "./Components/Main/Header/HeaderPages/Rent/Rent";
 import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
 import Reviews from "./Components/Main/Header/HeaderPages/Reviews/Reviews";
 import Profile from "./Components/Main/Header/HeaderPages/Register/Profile/Profile";
@@ -34,7 +34,6 @@ function App() {
                 <Route path={'/regis'} element={<Reg/>}/>
                 <Route path={'/property'} element={<Property/>}/>
             </Routes>
-
             <Footer/>
         </>
     );
