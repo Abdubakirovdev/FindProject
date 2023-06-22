@@ -6,7 +6,7 @@ import agentImg2 from "../../../Imgs/Agent (1).svg"
 import agentImg3 from "../../../Imgs/Agent (2).svg"
 import agentImg4 from "../../../Imgs/Agent (3).svg"
 import agentImg5 from "../../../Imgs/Agent (4).svg"
-
+ 
 const SuperAgent = () => {
     return (
         <section id="agent">
@@ -17,12 +17,6 @@ const SuperAgent = () => {
                         <button>See more</button>
                     </div>
                     <div className="agent--box">
-                        <div>
-                            <img src={agentImg} alt=""/>
-                        </div>
-                        <div>
-                            <img src={agentImg} alt=""/>
-                        </div>
                         <div>
                             <img src={agentImg} alt=""/>
                         </div>
