@@ -11,6 +11,7 @@ import Buy from "./Components/Main/Header/HeaderPages/Buy/Buy";
 import Rent from "./Components/Main/Header/HeaderPages/Rent/Rent";
 import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
 import Reviews from "./Components/Main/Header/HeaderPages/Reviews/Reviews";
+import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 import Profile from "./Components/Main/Header/HeaderPages/Register/Profile/Profile";
 import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg"
 import Property from "./Components/Main/AddProporty/Property";
@@ -30,6 +31,7 @@ function App() {
                 <Route path={'/agents'} element={<Agents/>}/>
                 <Route path={'/review'} element={<Reviews/>}/>
                 <Route path={'/apartment'} element={<Apartamen/>}/>
+                <Route path={"/AgentsDetail"} element={<AgentsDetail/>} />
                 <Route path={'/profile'} element={<Profile/>}/>
                 <Route path={'/regis'} element={<Reg/>}/>
                 <Route path={'/property'} element={<Property/>}/>
