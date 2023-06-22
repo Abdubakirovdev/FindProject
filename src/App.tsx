@@ -11,6 +11,7 @@ import Buy from "./Components/Main/Header/HeaderPages/Buy/Buy";
 import Rent from "./Components/Main/Explore/Dream/RentsHero/Rent";
 import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
 import Reviews from "./Components/Main/Header/HeaderPages/Reviews/Reviews";
+import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                 <Route path={'/agents'} element={<Agents/>}/>
                 <Route path={'/review'} element={<Reviews/>}/>
                 <Route path={'/apartment'} element={<Apartamen/>}/>
+                <Route path={"/AgentsDetail"} element={<AgentsDetail/>} />
             </Routes>
 
             <Footer/>
