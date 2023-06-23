@@ -56,8 +56,6 @@ root.render(
                     <Route path={"/home-admin/settings"} element={<Settings/>}/>
                 </Route>
             </Routes>
-
-
         </Provider>
     </BrowserRouter>
 );

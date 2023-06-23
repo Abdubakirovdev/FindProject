@@ -21,7 +21,7 @@ const Reg = () => {
     const [lock, setLock] = useState(false)
     const [red, setRed] = useState(false)
 
-    const {log} = useAppSelector(s => s.loginSlice)
+    const {log} = useAppSelector(s => s.LoginSlice)
     const dispatch = useAppDispatch()
     const navigate = useNavigate()
 

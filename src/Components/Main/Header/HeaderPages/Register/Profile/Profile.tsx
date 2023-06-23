@@ -7,7 +7,7 @@ import home from '../../../../../../Imgs/home.png'
 
 const Profile = () => {
 
-    const {log} = useAppSelector(state => state.loginSlice)
+    const {log} = useAppSelector(state => state.LoginSlice)
     const navi = useNavigate()
 
     return (

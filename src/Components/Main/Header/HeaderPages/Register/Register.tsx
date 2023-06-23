@@ -10,7 +10,7 @@ import {addUser} from "../../../../../store/Reducer/Login";
 
 const Register = () => {
 
-    const {findUser} = useAppSelector(state => state.loginSlice)
+    const {findUser} = useAppSelector(state => state.LoginSlice)
     const dispatch = useAppDispatch()
     const [red, setRed] = useState(false)
     const [lock, setLock] = useState(false)
