@@ -12,7 +12,7 @@ const Header = () => {
     const navigate = useNavigate()
     const [burger, setBurger] = useState(false)
 
-    const {log} = useAppSelector(s => s.loginSlice)
+    const {log} = useAppSelector(s => s.LoginSlice)
 
     const showLog = log.slice(0,1).map(el => el.email)
     const showName = log.slice(0,1).map(el => el.name)
