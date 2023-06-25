@@ -26,7 +26,7 @@ const AgentsDetail = () => {
                     <div className="AgentsDetail__info">
                         <h1>Personal information</h1>
                         <p>Areas: <strong>Bishkek</strong></p>
-                        <p>Active listings: <a href="">15 Properties</a></p>
+                        <p className="AgentsDetail__info--p">Active listings: <a href="">15 Properties</a></p>
                         <p>Experience since: <strong>2020</strong></p>
                     </div>
 

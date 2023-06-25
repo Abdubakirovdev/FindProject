@@ -23,6 +23,7 @@ import Profile from "./Components/Main/Header/HeaderPages/Register/Profile/Profi
 import ForgotPass from "./Components/Main/AminPage/ForgotPass/ForgotPass";
 import Admin from "./Components/Main/AminPage/Admin/Admin";
 import AboutAgents from "./Components/Main/AminPage/Inbox/Agents/aboutAgents";
+import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -42,6 +43,7 @@ root.render(
                     <Route path={'/buy'} element={<Buy/>}/>
                     <Route path={'/rent'} element={<Rent/>}/>
                     <Route path={'/agents'} element={<Agents/>}/>
+                    <Route path={'/AgentsDetail'} element={<AgentsDetail/>}/>
                     <Route path={'/review'} element={<Reviews/>}/>
                     <Route path={'/apartment'} element={<Apartamen/>}/>
                     <Route path={'/profile'} element={<Profile/>}/>
