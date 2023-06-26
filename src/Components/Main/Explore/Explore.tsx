@@ -17,7 +17,8 @@ const Explore = () => {
                             <option value="">Cheapest</option>
                             <option value="">The most expensive</option>
                         </select>
-                        <button className="ex--btn1">See more</button>
+                        <NavLink onClick={() => window.scroll(0,0)} to={'/buy'}> <button className="ex--btn1">See more</button></NavLink>
+
                     </div>
                 </div>
 
