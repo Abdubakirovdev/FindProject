@@ -53,6 +53,8 @@ root.render(
                     <Route path={'/profile'} element={<Profile/>}/>
                     <Route path={"/forgot-pass"} element={<ForgotPass/>}/>
                     <Route path={"/regis"} element={<Reg/>}/>
+                    <Route path={'/agents'} element={<Agents/>}/>
+                    <Route path={'/buy'} element={<Buy/>}/>
                 </Route>
                 <Route path={"/admin"} element={<Admin/>}/>
                 <Route path={'/home-admin'} element={<NavAdmin/>}>

@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import Header from "./Components/Main/Header/Header";
-import {Outlet} from "react-router-dom";
+import {Outlet, Route, Routes} from "react-router-dom";
 import Footer from "./Components/Main/Footer/Footer";
+import Agents from "./Components/Main/Header/HeaderPages/Agents/Agents";
 
 
 
@@ -10,7 +11,7 @@ import Footer from "./Components/Main/Footer/Footer";
 function App() {
     return (
         <>
-           <Header/>
+            <Header/>
             <Outlet/>
             <Footer/>
         </>
