@@ -6,6 +6,7 @@ import agentImg2 from "../../../Imgs/Agent (1).svg"
 import agentImg3 from "../../../Imgs/Agent (2).svg"
 import agentImg4 from "../../../Imgs/Agent (3).svg"
 import agentImg5 from "../../../Imgs/Agent (4).svg"
+import {NavLink} from "react-router-dom";
  
 const SuperAgent = () => {
     return (
@@ -14,7 +15,7 @@ const SuperAgent = () => {
                 <div className="agent">
                     <div className="agent--titles">
                         <h1>Meet our SuperAgents</h1>
-                        <button>See more</button>
+                        <NavLink onClick={() => window.scroll(0,0)} to={'/agents'}> <button>See more</button></NavLink>
                     </div>
                     <div className="agent--box">
                         <div>
