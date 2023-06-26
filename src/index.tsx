@@ -27,7 +27,6 @@ import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg";
 
 import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 
-import Reg from './Components/Main/Header/HeaderPages/Register/Reg/Reg'
 
 
 const root = ReactDOM.createRoot(
