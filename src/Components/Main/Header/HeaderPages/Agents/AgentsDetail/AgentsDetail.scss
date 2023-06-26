@@ -156,6 +156,12 @@
           font-weight: 400;
           font-size: 16px;
           color: rgba(0, 74, 96, 0.7);
+          transition: .2s;
+
+          :hover{
+            background: rgba(0, 74, 96, 0.7);
+            color: white;
+          }
         }
 
       }
@@ -173,11 +179,18 @@
         border: 1px solid rgba(0, 74, 96, 0.5);
         border-radius: 8px;
 
+
         a {
           display: flex;
           font-weight: 400;
           font-size: 16px;
           color: rgba(0, 74, 96, 0.7);
+          transition: .2s;
+
+          :hover{
+            background: rgba(0, 74, 96, 0.7);
+            color: white;
+          }
         }
       }
     }
@@ -212,5 +225,172 @@
         border-radius: 8px;
       }
     }
+  }
+}
+
+@media (max-width: 1440px) {
+  //#AgentsDetail {
+  //  padding: 160px 75px 0 0;
+  //}
+  //#AgentsDetail .AgentsDetail__contact i {
+  //  left: 925px;
+  //}
+}
+@media (max-width: 1200px) {
+  #AgentsDetail .AgentsDetail .other {
+    margin: -480px -170px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 950px;
+  }
+}
+@media (max-width: 1140px) {
+  #AgentsDetail {
+    padding: 160px 10px 0 0;
+  }
+  #AgentsDetail .AgentsDetail__line {
+    width: 535px;
+  }
+  #AgentsDetail .AgentsDetail__lang {
+    left: 495px;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: -480px -160px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 904px;
+  }
+}
+@media (max-width: 1024px) {
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 790px;
+  }
+}
+@media (max-width: 992px) {
+  #AgentsDetail {
+    padding: 160px 140px 0 0;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: -480px -276px 0;
+  }
+  #AgentsDetail .AgentsDetail__about {
+    margin: 0 -75px 0;
+  }
+  #AgentsDetail .AgentsDetail__lang {
+    left: 400px;
+  }
+  #AgentsDetail .AgentsDetail__line {
+    width: 555px;
+    margin: 30px -65px;
+  }
+  #AgentsDetail .AgentsDetail__info {
+    margin: 0 -65px;
+  }
+}
+@media (max-width: 768px) {
+  #AgentsDetail .AgentsDetail .other {
+    margin: -140px -246px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 510px;
+  }
+  #AgentsDetail .AgentsDetail__about {
+    margin: 0px -67px 0;
+  }
+  #AgentsDetail .AgentsDetail__about h1 {
+    width: 229px;
+  }
+  #AgentsDetail .AgentsDetail__lang {
+    width: 218px;
+  }
+}
+@media (max-width: 576px) {
+  #AgentsDetail .AgentsDetail {
+    margin: 0 75px;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: -140px -220px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 345px;
+  }
+  #AgentsDetail .AgentsDetail__line {
+    width: 497px;
+  }
+  #AgentsDetail .AgentsDetail__lang {
+    left: 330px;
+    width: 217px;
+  }
+  #AgentsDetail .AgentsDetail__about--title {
+    margin: 0 25px;
+  }
+}
+@media (max-width: 451px) {
+  #AgentsDetail .AgentsDetail__lang {
+    left: 300px;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: 30px -195px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 205px;
+  }
+  #AgentsDetail .AgentsDetail__info {
+    margin: 0 -70px 0 60px;
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  #AgentsDetail .AgentsDetail__about {
+    margin: -70px -75px 53px;
+  }
+  #AgentsDetail .AgentsDetail__about--title {
+    //margin: 185px -130px 0;
+    margin: 245px -210px 0;
+  }
+  #AgentsDetail .AgentsDetail__about img {
+    margin: -20px 0px 0px;
+  }
+  #AgentsDetail .AgentsDetail__lang {
+    left: 31px;
+    top: 480px;
+  }
+  #AgentsDetail .AgentsDetail__line {
+    width: 374px;
+    margin: 29px -87px;
+  }
+  #AgentsDetail .AgentsDetail__info {
+    margin: 0 0 0 -70px;
+    width: 300px;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: 35px -130px 0;
+  }
+  #AgentsDetail .AgentsDetail__contact i {
+    left: 85px;
+  }
+}
+@media (max-width: 380px) {
+  #AgentsDetail .AgentsDetail__line {
+    width: 350px;
+    margin: 29px -87px;
+  }
+  #AgentsDetail .AgentsDetail__about--title {
+    margin: 245px -190px 0;
+  }
+  #AgentsDetail .AgentsDetail .other {
+    margin: 35px -158px 0;
+  }
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+  #AgentsDetail {
+    padding: 160px 75px 0 0;
+  }
+  #AgentsDetail .AgentsDetail__line {
+    width: 300px;
+    margin: 29px -87px;
   }
 }

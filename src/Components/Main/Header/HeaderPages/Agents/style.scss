@@ -298,6 +298,9 @@
   #agents .agents__see {
     margin: 2913px 0 0 0;
   }
+  #agents .agents__search--cont button i {
+    font-size: 22px;
+  }
 }
 @media (max-width: 451px) {
   #agents .agents__find {
@@ -311,11 +314,16 @@
   #agents .agents__search--cont input {
     width: 275px;
     height: 70px;
+    font-size: 11px;
   }
   #agents .agents__search--cont button {
     top: 15px;
     width: 90px;
     height: 40px;
+    font-size: 12px;
+  }
+  #agents .agents__search--cont button i {
+    font-size: 17px;
   }
   #agents .agents__peoples {
     width: 500px;
@@ -333,9 +341,10 @@
   #agents .agents__search--cont input {
     width: 190px;
     height: 55px;
+    font-size: 6px;
   }
   #agents .agents__search--cont button {
-    width: 85px;
+    width: 75px;
     height: 31px;
   }
   #agents .agents__peoples {
@@ -349,9 +358,15 @@
     font-size: 20px;
   }
   #agents .agents__search--cont button {
-    width: 28px;
+    width: 40px;
     height: 31px;
     font-size: 12px;
+  }
+  #agents .agents__search--cont button i{
+    display: none;
+  }
+  #agents .agents__search--cont input {
+    font-size: 9px;
   }
 }
 @media (max-width: 375px) {
@@ -373,14 +388,15 @@
     left: 42px;
   }
   #agents .agents__search--cont input {
-    width: 165px;
+    width: 210px;
     height: 45px;
+    font-size: 10px;
   }
   #agents .agents__search--cont button {
-    width: 76px;
+    width: 50px;
     height: 31px;
     top: 8px;
-    left: 125px;
+    left: 150px;
   }
   #agents .agents__peoples {
     padding: 200px 0 50px 0px;
