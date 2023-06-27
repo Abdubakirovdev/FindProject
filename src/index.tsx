@@ -26,6 +26,7 @@ import AboutAgents from "./Components/Main/AminPage/Inbox/Agents/aboutAgents";
 import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg";
 
 import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
+import Resume from "./Components/Main/AminPage/Inbox/Agents/Resume/Resume";
 
 
 const root = ReactDOM.createRoot(
@@ -63,6 +64,7 @@ root.render(
                     <Route path={"/home-admin/realty"} element={<Realty/>}/>
                     <Route path={"/home-admin/payment"} element={<Payment/>}/>
                     <Route path={"/home-admin/settings"} element={<Settings/>}/>
+                    <Route path={"/home-admin/agents/resume"} element={<Resume/>}/>
                 </Route>
             </Routes>
         </Provider>
