@@ -43,7 +43,7 @@ const AboutUser = () => {
                 <NavLink to={"/home-admin/settings"}
                          className="flex items-center text-[#004A60] text-xl my-1 py-1 px-2 rounded hover:bg-blue-700 transition-[0.4s] hover:text-white"><LuSettings
                     className="mr-2"/>Settings</NavLink>
-                <NavLink to={"/"}
+                <NavLink to={"/admin"}
                          className="flex items-center text-red-500 text-xl my-1 py-1 px-2 rounded hover:bg-blue-700 transition-[0.4s] hover:text-white"><BsArrowLeft
                     className="mr-2"/>Logout</NavLink>
             </div>

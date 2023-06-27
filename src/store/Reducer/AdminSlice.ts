@@ -1,13 +1,15 @@
-import {createSlice} from "@reduxjs/toolkit";
+import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 import {IAdminLogin, IAdminShow} from "../../Types/IUser";
 
 
 const localUser: any = localStorage.getItem("showUserL")
+const localAcceptAgents: any = localStorage.getItem("acceptL")
 
 interface IAdminSlice {
     adminData: IAdminLogin[]
     findName: boolean,
     showAdmin: IAdminShow[] | {} | any
+    acceptAgents: any[]
 }
 
 const initialState: IAdminSlice = {
@@ -21,7 +23,8 @@ const initialState: IAdminSlice = {
         password: "1234"
     }],
     findName: false,
-    showAdmin: JSON.parse(localUser) || {}
+    showAdmin: JSON.parse(localUser) || {},
+    acceptAgents: JSON.parse(localAcceptAgents) || [],
 }
 
 export const adminSlice = createSlice({
@@ -33,9 +36,13 @@ export const adminSlice = createSlice({
         },
         showUser(state, {payload}) {
             localStorage.setItem("showUserL", JSON.stringify(state.showAdmin = {...payload}))
-        }
+        },
+        acceptAgent(state, {payload}: PayloadAction<any>){
+            localStorage.setItem("acceptL", JSON.stringify(state.acceptAgents = [{...payload}, ...state.acceptAgents]))
+            state.acceptAgents = [{...payload}, ...state.acceptAgents]
+        },
     }
 })
 
-export const {findUser, showUser} = adminSlice.actions
+export const {findUser, showUser, acceptAgent} = adminSlice.actions
 export default adminSlice.reducer
