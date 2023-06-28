@@ -43,7 +43,7 @@
       &-Search{
         font-size: 20px;
         position: absolute;
-        margin-left: -30px;
+        margin-left: -15px;
         margin-top: 4px
       }
       &-inputs{
@@ -124,7 +124,8 @@
           gap: 5px;
         }
         &-p{
-          font-weight: 600;
+          padding: 10px 0;
+          font-weight: 400;
           font-size: 16px;
           line-height: 24px;
           color: #004A60;
@@ -198,6 +199,12 @@
     flex-direction: column;
   }
 
+}
+@media (max-width: 1024px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 110px;
+    left: 210px;
+  }
 }
 @media (max-width: 992px) {
 
@@ -303,6 +310,35 @@
     margin-left: -30.5%;
   }
 }
+@media (max-width: 451px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 25px;
+  }
+  #Reviews .Reviews-top-reviews-left-one-right-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 380px;
+  }
+}
+@media (max-width: 400px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 380px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 100px;
+    margin-left: -40.5%;
+  }
+}
+@media (max-width: 380px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 365px;
+  }
+}
 @media (max-width: 320px) {
   #Reviews .Reviews-hero-input-inputs {
     top: 160px;
@@ -321,11 +357,17 @@
   #Reviews .Reviews-hero-input button {
     width: 110px;
     height: 40px;
-    margin-left: -48.5%;
+    margin-left: -40.5%;
+    font-size: 11px;
   }
   #Reviews .Reviews-hero-input input {
     width: 575px;
     height: 58px;
     font-size: 10px;
+  }
+  #Reviews .Reviews-hero-input-Search {
+    font-size: 14px;
+    margin-left: -21px;
+    margin-top: 1px;
   }
 }

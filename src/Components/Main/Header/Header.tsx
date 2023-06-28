@@ -5,6 +5,9 @@ import {NavLink, useNavigate} from "react-router-dom";
 import {RiMenu3Line} from "react-icons/ri";
 import {IoCloseSharp} from "react-icons/io5";
 import {useAppSelector} from "../../../Hooks/UseAppSelector";
+import kg from '../../../Imgs/Flag_of_Kyrgyzstan.svg.png'
+import usa from '../../../Imgs/US_flag_51_stars.svg.png'
+import ru from '../../../Imgs/Flag_of_Russia.svg'
 
 
 const Header = () => {
@@ -69,9 +72,9 @@ const Header = () => {
                     <div className='header--search'>
                         <div className='header--search__select'>
                             <select name="" id="">
-                                <option value="">English</option>
-                                <option value="">Russian</option>
-                                <option value="">Kyrgyz</option>
+                                <option value=""><img src={usa} alt=""/>English</option>
+                                <option value=""><img src={ru} alt=""/>Russian</option>
+                                <option value=""><img src={kg} alt=""/>Kyrgyz</option>
                             </select>
                         </div>
                         <div className='header--search__button'>
