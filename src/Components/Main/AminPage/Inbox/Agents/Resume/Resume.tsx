@@ -12,6 +12,7 @@ import {acceptAgent} from "../../../../../../store/Reducer/AdminSlice";
 const Resume = () => {
 
     const nav = useNavigate()
+    const goBack = () => nav(-1)
 
     const data = {
         id: 0,
@@ -45,7 +46,7 @@ const Resume = () => {
 
     return (
         <div className="flex items-start ">
-            <HiOutlineArrowLeft className="text-xl mr-8 mt-2"/>
+            <HiOutlineArrowLeft onClick={goBack} className="text-xl mr-8 mt-2 cursor-pointer"/>
             <div className="flex flex-col items-center mb-8">
                 <div className="flex bg-gray-100 py-[37px] px-[27px] ml-6 flex-col w-[880px] text-[#004A60]">
                     <div className="flex items-start border-b-2 border-[#ABABAB] pb-[25px]">
