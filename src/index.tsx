@@ -24,9 +24,9 @@ import ForgotPass from "./Components/Main/AminPage/ForgotPass/ForgotPass";
 import Admin from "./Components/Main/AminPage/Admin/Admin";
 import AboutAgents from "./Components/Main/AminPage/Inbox/Agents/aboutAgents";
 import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg";
-
 import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 import Resume from "./Components/Main/AminPage/Inbox/Agents/Resume/Resume";
+
 
 
 const root = ReactDOM.createRoot(
@@ -52,12 +52,12 @@ root.render(
                     <Route path={'/review'} element={<Reviews/>}/>
                     <Route path={'/apartment'} element={<Apartamen/>}/>
                     <Route path={'/profile'} element={<Profile/>}/>
-                    <Route path={"/forgot-pass"} element={<ForgotPass/>}/>
                     <Route path={"/regis"} element={<Reg/>}/>
                     <Route path={'/agents'} element={<Agents/>}/>
                     <Route path={'/buy'} element={<Buy/>}/>
                 </Route>
                 <Route path={"/admin"} element={<Admin/>}/>
+                <Route path={"/forgot-pass"} element={<ForgotPass/>}/>
                 <Route path={'/home-admin'} element={<NavAdmin/>}>
                     <Route index element={<InboxPage/>}/>
                     <Route path={"/home-admin/agents"} element={<AboutAgents/>}/>

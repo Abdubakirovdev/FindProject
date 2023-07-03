@@ -11,7 +11,6 @@ import {findUser, showUser} from "../../../../store/Reducer/AdminSlice";
 const Admin = () => {
 
     const [eye, setEye] = useState(false)
-    const [error, setError] = useState({})
     const [red, setRed] = useState<boolean>(false)
     const dispatch = useAppDispatch()
     const {findName,adminData, showAdmin} = useAppSelector(s => s.AdminSlice)
