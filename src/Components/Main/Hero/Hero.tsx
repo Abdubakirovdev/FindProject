@@ -51,7 +51,7 @@ const Hero = () => {
                         </div>
 
                         <input className="hero--input1" type="text" placeholder="Enter an address or city "/>
-                        <button className="hero--btn2"> <CiSearch/> Search</button>
+                        <button className="hero--btn2"> <i><CiSearch/></i> Search</button>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ const Hero = () => {
                     <div className="hero--block2">
                         <div>
                             <input className="hero--input11" type="text" placeholder="Enter an address or city "/>
-                            <button className="hero--btn22"> <CiSearch/> Search</button>
+                            <button className="hero--btn22"><i><CiSearch/></i>  Search</button>
                             <div className="hero--buttons23">
                                 <button className="hero--btn11">Buy</button>
                                 <button className="hero--btn11">Rent</button>

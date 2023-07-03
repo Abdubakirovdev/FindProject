@@ -24,7 +24,6 @@ import ForgotPass from "./Components/Main/AminPage/ForgotPass/ForgotPass";
 import Admin from "./Components/Main/AminPage/Admin/Admin";
 import AboutAgents from "./Components/Main/AminPage/Inbox/Agents/aboutAgents";
 import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg";
-
 import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 import Resume from "./Components/Main/AminPage/Inbox/Agents/Resume/Resume";
 
