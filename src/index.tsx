@@ -24,7 +24,6 @@ import ForgotPass from "./Components/Main/AminPage/ForgotPass/ForgotPass";
 import Admin from "./Components/Main/AminPage/Admin/Admin";
 import AboutAgents from "./Components/Main/AminPage/Inbox/Agents/aboutAgents";
 import Reg from "./Components/Main/Header/HeaderPages/Register/Reg/Reg";
-
 import AgentsDetail from "./Components/Main/Header/HeaderPages/Agents/AgentsDetail/AgentsDetail";
 import Resume from "./Components/Main/AminPage/Inbox/Agents/Resume/Resume";
 
@@ -42,7 +41,6 @@ root.render(
             <Routes>
                 <Route path={"/"} element={<App/>}>
                     <Route index element={<Main/>}/>
-                    <Route path={'/apartamen'} element={<Apartamen/>}/>
                     <Route path={'/explore'} element={<Explore/>}/>
                     <Route path={'register'} element={<Register/>}/>
                     <Route path={"/regis"} element={<Reg/>}/>

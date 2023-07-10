@@ -1,5 +1,4 @@
 #ex{
-
   .ex{
     display: flex;
     justify-content: space-between;
@@ -44,49 +43,7 @@
       background: rgba(27, 118, 249, 0.3);
       border-radius: 8px;
     }
-    &--card1{
-      display: flex;
-      grid-column-gap: 18px;
-      overflow-x: auto;
-      padding: 10px 0;
-    }
-    &--cards{
-      &__card{
-        padding: 10px;
-        width: 243px;
-        height: 344px;
-        border: 1px solid rgba(0, 74, 96, 0.5);
-        border-radius: 16px;
-        &--image{
-         display: block;
-          width: 220px;
-        }
-        h2{
-          font-weight: 500;
-          font-size: 21.33px;
-          line-height: 32px;
-          color: #004A60;
-          padding-bottom: 30px;
-        }
-        &--titles{
-          display: flex;
-          justify-content: space-between;
-          p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: rgba(0, 74, 96, 0.7);
-          }
-          h4{
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            color: #1B76F9;
-          }
-        }
 
-      }
-    }
 
   }
 }
