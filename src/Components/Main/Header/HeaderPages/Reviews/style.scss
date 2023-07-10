@@ -21,7 +21,7 @@
         width: 662px;
         height: 88px;
         border-radius: 16px;
-        background: silver;
+        background: rgba(0, 74, 96, 0.10);
         outline: none;
         border: none;
         font-size: 20px;
@@ -43,7 +43,7 @@
       &-Search{
         font-size: 20px;
         position: absolute;
-        margin-left: -30px;
+        margin-left: -15px;
         margin-top: 4px
       }
       &-inputs{
@@ -73,7 +73,13 @@
       gap: 200px;
     }
     &-left{
-      h1{
+      &--h1{
+        font-weight: 550;
+        color: var(--color-text, #004A60);
+        font-size: 28.43px;
+        font-family: Poppins,sans-serif;
+        font-style: normal;
+        line-height: normal;
         padding-bottom: 50px;
       }
       &-one{
@@ -90,12 +96,12 @@
           padding-left: 3%;
           &-num{
             display: flex;
-            padding-top: 12%;
+            padding-top: 31%;
           }
           &-btn{
             display: flex;
             gap: 10px;
-            padding-top: 3%;
+            padding-top: 1rem;
           }
           &-h1{
             font-weight: 500;
@@ -106,16 +112,34 @@
       }
     }
     &-right{
-      h1{
+      &--h1{
         font-weight: 550;
+        color: var(--color-text, #004A60);
+        font-size: 28.43px;
+        font-family: Poppins,sans-serif;
+        font-style: normal;
+        line-height: normal;
       }
       &-one{
         background: transparent;
         border: 2px solid silver;
         padding: 20px 20px;
         border-radius: 16px;
+        color: rgba(0, 74, 96, 0.70);
+
+        button{
+          &:hover{
+            background: rgba(0, 74, 96, 0.11);
+          }
+          display: flex;
+          padding: 8px 16px;
+          align-items: flex-start;
+          gap: 8px;
+          border-radius: 8px;
+          border: 1px solid rgba(0, 74, 96, 0.50);
+        }
         &-h1{
-          font-weight: 700;
+          font-weight: 400;
           font-size: 21.33px;
           color: #004A60;
         }
@@ -124,11 +148,12 @@
           gap: 5px;
         }
         &-p{
-          font-weight: 600;
+          font-family: Poppins,sans-serif;
+          padding: 20px 0;
+          font-weight: 400;
           font-size: 16px;
-          line-height: 24px;
-          color: #004A60;
-        }
+          line-height: 20px;
+          color: var(--color-text, #004A60);        }
       }
     }
     .btns{
@@ -198,6 +223,12 @@
     flex-direction: column;
   }
 
+}
+@media (max-width: 1024px) {
+  #Reviews .Reviews-hero-input-inputs {
+    top: 110px;
+    left: 210px;
+  }
 }
 @media (max-width: 992px) {
 
@@ -303,6 +334,35 @@
     margin-left: -30.5%;
   }
 }
+@media (max-width: 451px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 25px;
+  }
+  #Reviews .Reviews-top-reviews-left-one-right-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 380px;
+  }
+}
+@media (max-width: 400px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 380px;
+  }
+  #Reviews .Reviews-hero-input button {
+    width: 100px;
+    margin-left: -40.5%;
+  }
+}
+@media (max-width: 380px) {
+  #Reviews .Reviews-hero-input-inputs {
+    left: 26px;
+    width: 365px;
+  }
+}
 @media (max-width: 320px) {
   #Reviews .Reviews-hero-input-inputs {
     top: 160px;
@@ -321,11 +381,17 @@
   #Reviews .Reviews-hero-input button {
     width: 110px;
     height: 40px;
-    margin-left: -48.5%;
+    margin-left: -40.5%;
+    font-size: 11px;
   }
   #Reviews .Reviews-hero-input input {
     width: 575px;
     height: 58px;
     font-size: 10px;
+  }
+  #Reviews .Reviews-hero-input-Search {
+    font-size: 14px;
+    margin-left: -21px;
+    margin-top: 1px;
   }
 }
