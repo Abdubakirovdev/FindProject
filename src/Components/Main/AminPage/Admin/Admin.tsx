@@ -63,9 +63,9 @@ const Admin = () => {
                     <img src={logo} alt=""/>
                     <form onSubmit={handleSubmit}
                           className="flex mt-10 flex-col items-center h-[320px] justify-between">
-                        <h2 className="text-[#004A60] text-4xl font-bold">Log in</h2>
+                        <h2 className="text-[#004A60] text-4xl font-bold 768:text-2xl 576:text-xl ">Log in</h2>
                         <input onChange={handleChange} value={user.uname} style={{border: red ? "red solid 1px" : ""}} type="text"
-                               className="border-2 rounded-[12px] text-xl w-[70%] px-4 h-[60px]"
+                               className="border-2 rounded-[12px] text-xl w-[70%] px-4 h-[60px] 768:text-lg"
                                placeholder="User Name" name="uname"/>
                         <div
                             className="border-2 rounded-[12px] w-[70%]  text-xl h-[60px] flex items-center justify-between text-gray-400 relative" style={{border: red ? "red solid 1px" : ""}}>

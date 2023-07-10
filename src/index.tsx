@@ -41,7 +41,6 @@ root.render(
             <Routes>
                 <Route path={"/"} element={<App/>}>
                     <Route index element={<Main/>}/>
-                    <Route path={'/apartamen'} element={<Apartamen/>}/>
                     <Route path={'/explore'} element={<Explore/>}/>
                     <Route path={'register'} element={<Register/>}/>
                     <Route path={"/regis"} element={<Reg/>}/>
