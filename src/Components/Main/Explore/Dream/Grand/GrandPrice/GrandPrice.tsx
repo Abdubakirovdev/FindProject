@@ -2,23 +2,23 @@ import React from 'react';
 
 const GrandPrice = () => {
     return (
-        <div className="container flex items-start justify-between my-4">
-            <p className="w-[60%] 1200:w-[55%] 1024:w-[50%] mt-8">The unsurpassed panoramic view into the horizon, where earth and sky embrace, and the enticing summer
+        <div className="container flex items-start justify-between my-4 992:flex-col 992:items-center max-768:flex-col max-768:items-center">
+            <p className="w-[60%] 1200:w-[55%] 1024:w-[50%] 1024:text-base mt-8 992:w-[100%] max-768:w-full">The unsurpassed panoramic view into the horizon, where earth and sky embrace, and the enticing summer
                 breeze, offer moments of unique relaxation and wellbeing. The calm design of the property, combined with
                 the harmonious synthesis of natural material, and the exceptional landscape of Aleomandra, complete this
                 luxurious setting.
                 The location of Untold Mykonos is ideal. It offers absolute privacy and tranquillity to guests, only 200
                 meters from the serene, crystal clear Glyfadi beach, and has direct access to tourist amenities.
             </p>
-            <div className="border-2 border-[#B9B9B9] flex flex-col justify-center rounded-2xl px-[25px] py-[30px] w-[27%] 1200:w-[33%] 1024:w-[38%] mt-8">
-                <h3 className="text-2xl font-medium text-center">60 000com<span className="text-lg font-light">/month</span></h3>
+            <div className="border-2 border-[#B9B9B9] flex flex-col justify-center rounded-2xl px-[25px] py-[30px] w-[27%] 1200:w-[33%] 1024:w-[38%] 992:w-[50%] mt-8 992:mb-8 max-768:w-2/3">
+                <h3 className="text-2xl font-medium text-center 1024:text-xl">60 000com<span className="text-lg font-light">/month</span></h3>
                 <div className="flex flex-col items-start">
                     <div className="flex items-center justify-between w-full my-3">
-                        <h3 className="flex text-xl font-medium">Minimum stay</h3>
+                        <h3 className="flex text-xl 1024:text-lg font-medium">Minimum stay</h3>
                         <h4>6 month</h4>
                     </div>
                     <div className="flex items-center justify-between w-full my-3">
-                        <h3 className="flex text-xl font-medium">Deposit</h3>
+                        <h3 className="flex text-xl 1024:text-lg font-medium">Deposit</h3>
                         <h4>20 000 с</h4>
                     </div>
                 </div>
