@@ -7,11 +7,20 @@ import {BiShapeSquare} from 'react-icons/bi'
 import {MdOutlineBedroomParent} from 'react-icons/md'
 import {BiBath} from 'react-icons/bi'
 import home from '../../../../../Imgs/KvartireRewiev.png'
+import {useNavigate} from "react-router-dom";
 
 const Buy = () => {
 
     const [bg, setBg] = useState(false)
     const [bg2, setBg2] = useState(false)
+
+    const nav = useNavigate()
+
+    const navigate = () => {
+        window.scroll(0, 0)
+        nav('/apartment')
+    }
+
 
     return (
         <div id={'rent'}>
@@ -75,7 +84,7 @@ const Buy = () => {
 
                     <div className="rent--houses">
                       <div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -94,7 +103,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -113,7 +122,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -132,7 +141,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -151,7 +160,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -170,7 +179,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -189,7 +198,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>
@@ -208,7 +217,7 @@ const Buy = () => {
                                   <p>$ 100 000</p>
                               </div>
                           </div>
-                          <div className='rent--houses__home'>
+                          <div onClick={navigate} className='rent--houses__home'>
                               <img className='rent--houses__home--img' src={home} alt=""/>
                               <div className='rent--houses__home--div'>
                                   <h1>Apartment</h1>

@@ -38,7 +38,7 @@ const Agents = () => {
                 </div>
                 <div className="agents__peoples">
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={Alexander} alt=""/>
                         </Link>
                         <h1>Leslie Alexander</h1>
@@ -46,7 +46,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={pena} alt=""/>
 
                         </Link>
@@ -55,7 +55,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={marv} alt=""/>
 
                         </Link>
@@ -64,7 +64,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={fox} alt=""/>
                         </Link>
 
@@ -73,7 +73,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={cooper} alt=""/>
                         </Link>
 
@@ -82,7 +82,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={jenny} alt=""/>
                         </Link>
 
@@ -91,7 +91,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={jones} alt=""/>
 
                         </Link>
@@ -100,7 +100,7 @@ const Agents = () => {
                         <button><i><RiMedalLine/></i>SUPERAGENT</button>
                     </div>
                     <div className="agents__peoples--alex">
-                        <Link to="/AgentsDetail">
+                        <Link onClick={() => window.scroll(0,0)} to="/AgentsDetail">
                             <img src={brook} alt=""/>
                         </Link>
                         <h1>Brooklyn Simmons</h1>

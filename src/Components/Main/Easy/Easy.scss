@@ -23,7 +23,17 @@
     &--block {
       display: flex;
       justify-content: space-around;
+
+      &__agents {
+        //background: rgba(60, 84, 131, 0.12);
+        cursor: pointer;
+      }
+
+      &__listings {
+        cursor: pointer;
+      }
     }
+
 
     &--box {
       padding: 20px;
@@ -33,7 +43,10 @@
       height: 150px;
       background: #FFFFFF;
       border-radius: 0 0 30px 30px;
-
+      transition: .2s;
+      &:hover{
+        background: rgba(60, 84, 131, 0.12);
+      }
       h2 {
         display: flex;
         font-weight: 500;
@@ -58,6 +71,7 @@
 
     &--image1 {
       display: block;
+
     }
   }
 }
@@ -162,6 +176,7 @@
 @media (max-width: 451px) {
   #easy {
     padding-top: 80px;
+
     .easy {
       h1 {
         line-height: 10px;
@@ -176,7 +191,7 @@
         width: 185px;
         position: relative;
         left: 6px;
-        margin-top: 0px;
+        margin-top: 0;
         height: 123px;
 
         h2 {
