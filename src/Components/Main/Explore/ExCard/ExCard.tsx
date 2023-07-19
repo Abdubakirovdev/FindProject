@@ -9,7 +9,7 @@ const ExCard = () => {
         <div className="ex--card1">
             <div className="ex--cards">
                 <div className="ex--cards__card">
-                    <NavLink to={'/apartment'}>
+                    <NavLink onClick={() => window.scroll(0,0)} to={'/apartment'}>
                         <img className="ex--cards__card--image" src={exImg} alt=""/></NavLink>
                     <h2>The Grand Estate</h2>
                     <div className="ex--cards__card--titles">

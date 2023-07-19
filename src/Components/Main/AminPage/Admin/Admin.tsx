@@ -63,7 +63,7 @@ const Admin = () => {
                 <div className="w-[640px] h-[558px] bg-white rounded-[32px] p-[32px]">
                     <img src={logo} alt=""/>
                     <form onSubmit={handleSubmit}
-                          className="flex mt-10 flex-col items-center h-[320px] justify-between">
+                             className="flex mt-10 flex-col items-center h-[320px] justify-between">
                         <h2 className="text-[#004A60] text-4xl font-bold 768:text-2xl 576:text-xl ">Log in</h2>
                         <input onChange={handleChange} value={user.uname} style={{border: red ? "red solid 1px" : ""}} type="text"
                                className="border-2 rounded-[12px] text-xl w-[70%] px-4 h-[60px] 768:text-lg"
