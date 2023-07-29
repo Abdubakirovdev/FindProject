@@ -1,5 +1,5 @@
 #agents {
-  padding: 95px 0 0 0;
+  padding: 79px 0 0 0;
 
   .agents {
 
@@ -55,6 +55,12 @@
           background: rgba(0, 74, 96, 0.1);
           border-radius: 16px;
           border: none;
+          outline: none;
+          padding-left: 10px;
+
+          &::placeholder {
+            padding-left: 10px;
+          }
         }
 
         button {
@@ -72,11 +78,12 @@
           color: #FFFFFF;
           transition: .2s;
 
-          &:hover{
+          &:hover {
             color: #1B76F9;
             background: #FFFFFF;
           }
-          i{
+
+          i {
             font-size: 25px;
             position: absolute;
             left: 3px;
@@ -88,17 +95,17 @@
 
       select {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 0;
-        width: 100px;
-        height: 30px;
+        width: 114px;
+        height: 35px;
         border: 1px solid rgba(0, 74, 96, 0.5);
         border-radius: 8px;
         font-weight: 400;
         font-size: 16px;
         color: rgba(0, 74, 96, 0.7);
         text-align: center;
+        outline: none;
 
       }
     }
@@ -196,221 +203,1676 @@
 @media (max-width: 1440px) {
 
 }
+
 @media (max-width: 1200px) {
-  #agents .agents__search {
-    left: 310px;
-  }
-  #agents .agents__peoples {
-    padding: 200px 0 50px 249px;
-    margin: 0 -235px;
+
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        width: 500px;
+        height: 152px;
+        font-size: 50.52px;
+        top: 135px;
+        left: 465px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 24px;
+        width: 710px;
+        height: 200px;
+        left: 310px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 622px;
+            height: 105px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 20px;
+            right: 16px;
+            width: 115px;
+            height: 60px;
+            font-size: 16px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 235px 316px 0 0;
+        margin: 0 109px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 639px 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 
 }
+
 @media (max-width: 1140px) {
-  #agents .agents__find {
-    left: 340px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        width: 500px;
+        height: 152px;
+        font-size: 50.52px;
+        top: 135px;
+        left: 378px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 24px;
+        width: 710px;
+        height: 200px;
+        left: 245px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 622px;
+            height: 105px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 20px;
+            right: 16px;
+            width: 115px;
+            height: 60px;
+            font-size: 16px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 235px 316px 0 0;
+        margin: 0 109px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 639px 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
-  #agents .agents__search {
-    left: 250px;
-  }
-  #agents .agents__peoples {
-    padding: 200px 0 50px 10px;
-    margin: 0 -290px;
-  }
+
 }
+
 @media (max-width: 1024px) {
-  #agents .agents__find {
-    left: 320px;
-  }
-  #agents .agents__search {
-    left: 210px;
-    top: 280px;
-  }
-  #agents .agents__peoples {
-    padding: 200px 0 50px 40px;
-    width: 935px;
-    margin: 0 50px;
-  }
-  #agents .agents__peoples--alex {
-    padding: 0 0 0;
-    margin: 0 0 30px;
-  }
-  //#agents {
-  //  padding: 90px 0 190px 0;
-  //}
-  #agents .agents__see {
-    margin: 600px 0 0 0;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        width: 500px;
+        height: 152px;
+        font-size: 50.52px;
+        top: 135px;
+        left: 282px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 24px;
+        width: 710px;
+        height: 200px;
+        left: 177px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 622px;
+            height: 105px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 20px;
+            right: 16px;
+            width: 115px;
+            height: 60px;
+            font-size: 16px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 235px 34rem 0 0;
+        margin: 0 109px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 639px 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 992px) {
-  #agents .agents__search {
-    left: 180px;
-  }
-  #agents .agents__find {
-    left: 295px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        width: 500px;
+        height: 152px;
+        font-size: 48.52px;
+        top: 135px;
+        left: 252px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 10px;
+        width: 710px;
+        height: 160px;
+        left: 140px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 622px;
+            height: 87px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 20px;
+            right: 16px;
+            width: 115px;
+            height: 60px;
+            font-size: 16px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 235px 31rem 0 0;
+        margin: 0 65px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 639px 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 768px) {
-  #agents .agents__find {
-    left: 145px;
-    top: 90px;
-    font-size: 40px;
-  }
-  #agents .agents__search {
-    left: 80px;
-    top: 225px;
-    width: 600px;
-  }
-  #agents .agents__search--cont input {
-    width: 522px;
-  }
-  #agents .agents__peoples {
-    width: 635px;
-  }
-  #agents .agents__see {
-    margin: 1055px 0 0 0;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 34.52px;
+        top: 135px;
+        left: 160px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 10px;
+        width: 613px;
+        height: 148px;
+        left: 96px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 553px;
+            height: 73px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 16px;
+            width: 115px;
+            height: 54px;
+            font-size: 15px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 305px 40rem 0 0;
+        margin: 0 65px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 70rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
+@media (max-width: 683px) {
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 34.52px;
+        top: 135px;
+        left: 160px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 5px;
+        width: 575px;
+        height: 135px;
+        left: 50px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 553px;
+            height: 73px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 16px;
+            width: 115px;
+            height: 54px;
+            font-size: 15px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 305px 50rem 0 0;
+        margin: 0 65px;
+        width: 1420px;
+        height: 980px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 70rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 576px) {
-  #agents .agents__find {
-    left: 45px;
-    top: 65px;
-    font-size: 30px;
-  }
-  #agents .agents__search {
-    left: 60px;
-    top: 170px;
-    width: 460px;
-    height: 170px;
-  }
-  #agents .agents__search--cont input {
-    width: 362px;
-    height: 89px;
-  }
-  #agents .agents__search--cont button {
-    top: 18px;
-    width: 95px;
-    height: 55px;
-  }
-  #agents .agents__peoples {
-    width: 525px;
-    padding: 200px 0 50px 115px;
-  }
-  #agents .agents__see {
-    margin: 2913px 0 0 0;
-  }
-  #agents .agents__search--cont button i {
-    font-size: 22px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 20.52px;
+        top: 83px;
+        left: 45px;
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 5px;
+        width: 454px;
+        height: 135px;
+        left: 50px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 401px;
+            height: 73px;
+            font-size: 10px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 16px;
+            width: 115px;
+            height: 54px;
+            font-size: 15px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 25px;
+              position: absolute;
+              left: 3px;
+              //padding: 10px 0px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 305px 0 0 85px;
+        margin: 0 65px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 451px) {
-  #agents .agents__find {
-    width: 400px;
-    left: 15px;
-    top: 53px;
-    font-size: 25px;
-  }
-  #agents .agents__search {
-    width: 350px;
-  }
-  #agents .agents__search--cont input {
-    width: 275px;
-    height: 70px;
-    font-size: 11px;
-  }
-  #agents .agents__search--cont button {
-    top: 15px;
-    width: 90px;
-    height: 40px;
-    font-size: 12px;
-  }
-  #agents .agents__search--cont button i {
-    font-size: 17px;
-  }
-  #agents .agents__peoples {
-    width: 400px;
-    padding: 200px 0 50px 60px;
-  }
-  #agents .agents__see {
-    margin: 2833px 0 0 0;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 20.52px;
+        top: 83px;
+        left: 105px;
+        width: 253px;
+
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 5px;
+        width: 366px;
+        height: 105px;
+        left: 50px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 327px;
+            height: 55px;
+            font-size: 10px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 5px;
+            right: 6px;
+            width: 96px;
+            height: 54px;
+            font-size: 10px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 18px;
+              left: 6px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 35px;
+          font-size: 16px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 304px 0 0 0;
+        margin: 0 101px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 400px) {
-  #agents .agents__search {
-    width: 270px;
-    height: 155px;
-  }
-  #agents .agents__search--cont input {
-    width: 190px;
-    height: 55px;
-    font-size: 6px;
-  }
-  #agents .agents__search--cont button {
-    width: 75px;
-    height: 31px;
-  }
-  #agents .agents__peoples {
-    width: 350px;
-    padding: 200px 0 50px 0;
-  }
-  #agents .agents__find {
-    width: 355px;
-    top: 55px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 20.52px;
+        top: 83px;
+        left: 71px;
+        width: 253px;
+
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 5px;
+        width: 330px;
+        height: 111px;
+        left: 33px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 296px;
+            height: 55px;
+            font-size: 10px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 5px;
+            width: 84px;
+            height: 40px;
+            font-size: 10px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 18px;
+              left: 6px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 28px;
+          font-size: 13px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 304px 0 0 0;
+        margin: 0 75px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 380px) {
-  #agents .agents__find {
-    left: 85px;
-    top: 60px;
-    font-size: 22px;
-  }
-  #agents .agents__search--cont button {
-    width: 40px;
-    height: 31px;
-    font-size: 12px;
-  }
-  #agents .agents__search--cont button i{
-    display: none;
-  }
-  #agents .agents__search--cont input {
-    font-size: 9px;
-  }
-  #agents .agents__peoples {
-    width: 325px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 20.52px;
+        top: 83px;
+        left: 71px;
+        width: 253px;
+
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 5px;
+        width: 330px;
+        height: 111px;
+        left: 33px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 296px;
+            height: 55px;
+            font-size: 10px;
+            padding-left: 10px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 5px;
+            width: 84px;
+            height: 40px;
+            font-size: 10px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 18px;
+              left: 6px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 28px;
+          font-size: 13px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 304px 0 0 0;
+        margin: 0 75px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
-@media (max-width: 375px) {
-  #agents .agents__search--cont button {
-    width: 76px;
-    font-size: 13px;
+
+@media (max-width: 351px) {
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 20.52px;
+        top: 83px;
+        left: 71px;
+        width: 253px;
+
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 6px;
+        width: 295px;
+        height: 111px;
+        left: 33px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 265px;
+            height: 55px;
+            font-size: 10px;
+            padding-left: 1px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 8px;
+            right: 5px;
+            width: 84px;
+            height: 40px;
+            font-size: 10px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 18px;
+              left: 6px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 28px;
+          font-size: 13px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 304px 0 0 0;
+        margin: 28px 56px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
+
 @media (max-width: 320px) {
-  #agents .agents__find {
-    left: 50px;
-    width: 200px;
-    top: 45px;
-    font-size: 20px;
-  }
-  #agents .agents__search {
-    width: 235px;
-    height: 150px;
-    top: 155px;
-    left: 42px;
-  }
-  #agents .agents__search--cont input {
-    width: 210px;
-    height: 45px;
-    font-size: 10px;
-  }
-  #agents .agents__search--cont button {
-    width: 50px;
-    height: 31px;
-    top: 8px;
-    left: 150px;
-  }
-  #agents .agents__peoples {
-    width: 265px;
-    padding: 200px 0 50px 0px;
+  #agents {
+    padding: 79px 0 0 0;
+
+    .agents {
+
+      &__svg {
+        width: 100%;
+      }
+
+      &__find {
+        font-size: 17.52px;
+        top: 81px;
+        left: 49px;
+        width: 253px;
+
+      }
+
+      &__search {
+        padding: 24px;
+        gap: 6px;
+        width: 265px;
+        height: 111px;
+        left: 33px;
+        top: 349px;
+
+        &--cont {
+          position: relative;
+          display: inline-block;
+
+          input {
+            padding-right: 40px;
+            gap: 8px;
+            width: 246px;
+            height: 55px;
+            font-size: 10px;
+            padding-left: 1px;
+
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+
+          button {
+            top: 7px;
+            right: 1px;
+            width: 84px;
+            height: 40px;
+            font-size: 10px;
+
+            &:hover {
+              color: #1B76F9;
+              background: #FFFFFF;
+            }
+
+            i {
+              font-size: 18px;
+              left: 6px;
+            }
+          }
+        }
+
+
+        select {
+          padding: 0;
+          width: 114px;
+          height: 28px;
+          font-size: 13px;
+
+        }
+      }
+
+      &__peoples {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 304px 0 0 0;
+        margin: 28px 36px;
+
+        &--alex {
+          padding: 0 0 24px;
+          margin: 0 0 30px;
+          gap: 8px;
+          width: 256px;
+          height: 422px;
+
+          img {
+            border-radius: 32px 32px 0 0;
+            width: 256px;
+            height: 256px;
+          }
+
+          h1 {
+            font-size: 21.33px;
+            padding: 20px 0;
+          }
+
+          p {
+            font-size: 12.8px;
+          }
+
+          button {
+            margin: 20px 55px;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 137px;
+            height: 35px;
+            font-size: 12.8px;
+
+            &:hover {
+              background: #FFFFFF;
+              color: #1B76F9;
+              border: 1px solid #1B76F9;
+            }
+
+            i {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      &__see {
+        margin: 184rem 0 0 0;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 109px;
+        height: 40px;
+        font-size: 16px;
+
+        &:hover {
+          background: #1B76F9;
+          color: #FFFFFF;
+        }
+      }
+    }
   }
 }
