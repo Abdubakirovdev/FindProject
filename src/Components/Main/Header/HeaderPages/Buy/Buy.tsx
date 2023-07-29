@@ -252,6 +252,9 @@ const Buy = () => {
                     </div>
 
                     <div className="rent--pagination">
+                        {
+
+                        }
                         <button className='rent--pagination__btn'>1</button>
                         <button className='rent--pagination__btn'>2</button>
                         <button className='rent--pagination__btn'>3</button>

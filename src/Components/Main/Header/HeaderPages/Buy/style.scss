@@ -29,8 +29,8 @@
         button {
           display: flex;
           align-items: center;
-          justify-content: center;
-          width: 157px;
+          justify-content: space-evenly;
+          width: 144px;
           height: 40px;
           border: 1px solid rgba(0, 74, 96, 0.5);
           border-radius: 8px;
@@ -65,7 +65,7 @@
         p {
           position: absolute;
           top: 14.5rem;
-          right: 15rem;
+          right: 17rem;
           font-family: 'Poppins', sans-serif;
           font-style: normal;
           font-weight: 400;
@@ -108,7 +108,7 @@
 
         &--optionLast {
           width: 130px;
-          margin: 10px 0 0 76.5rem;
+          margin: 10px 0 0 72.5rem;
           height: 35px;
           background: #FFFFFF;
           border: 1px solid rgba(0, 74, 96, 0.7);
